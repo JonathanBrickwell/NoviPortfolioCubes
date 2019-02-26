@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700&subset=cyrillic,hebrew,latin-ext,vietnamese');
+
+body, html {
+    font-family: 'Amatic SC', cursive !important;
+}
+
+:root {
+    --input-padding-x: 1.5rem;
+    --input-padding-y: 0.75rem;
+  }
+  
+  .boxes,
+  .image {
+    min-height: 50vh;
+    width: 100%;
+  }
+  
+  .darker {
+    background: #1e1e1e;
+  }
+
+  .lighter {
+      background: #f2f2f2;
+  }
+
+.light-heading {
+    color:#f2f2f2;
+    font-size:4em;
+}
+
+.dark-heading {
+    color:#1e1e1e;
+    font-size:4em;
+}
+  
