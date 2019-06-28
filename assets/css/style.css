@@ -35,6 +35,14 @@ body, html {
   
 /* Navigation */
 
+.active {
+  width: 100% !important;
+}
+
+.disabled {
+  width: 100%;
+}
+
 .sidenav {
     height: 100%;
     width: 0;
