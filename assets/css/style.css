@@ -15,14 +15,23 @@ body, html {
     width: 100%;
   }
 
+/*  START HEADINGS */
+
+.sidenav-heading {
+  font-size: 2.2rem;
+  color: #f2f2f2;
+}
+
 .main-heading {
   width:100%;
   text-align: center;
 }
 
-  h2:hover {
-    cursor: pointer;
-  }
+h2:hover {
+  cursor: pointer;
+}
+
+/*  START HEADINGS */
   
   .darker {
     background: #1e1e1e;
