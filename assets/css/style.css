@@ -14,6 +14,10 @@ body, html {
     min-height: 50vh;
     width: 100%;
   }
+
+  h2:hover {
+    cursor: pointer;
+  }
   
   .darker {
     background: #1e1e1e;
@@ -39,10 +43,6 @@ body, html {
   width: 100% !important;
 }
 
-.disabled {
-  width: 100%;
-}
-
 .sidenav {
     height: 100%;
     width: 0;
@@ -66,25 +66,26 @@ body, html {
     transition: 0.3s;
   }
 
-  .sidenav a {
+  .sidenav .closebtn {
     text-decoration: none;
-    font-size: 50px;
-    color: #f2f2f2;
+    font-size: 50px !important;
+    color: #f2f2f2 !important;
     display: block;
     transition: 0.3s;
-  }
-  
-  .sidenav a:hover{
-    color: #f1f1f1;
-  }
-  
-  .sidenav .closebtn {
     position: absolute;
     text-decoration: none;
     top: 10px;
     right: 35px;
     font-size: 45px;
     margin-left: 50px;
+  }
+
+  .sidenav .closebtn:hover {
+    cursor: pointer;
+  }
+  
+  .sidenav a:hover{
+    color: #f1f1f1;
   }
 
   .openNav:hover {
