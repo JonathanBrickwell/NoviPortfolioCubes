@@ -15,6 +15,11 @@ body, html {
     width: 100%;
   }
 
+.main-heading {
+  width:100%;
+  text-align: center;
+}
+
   h2:hover {
     cursor: pointer;
   }
