@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700&subset=cyrillic,hebrew,latin-ext,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
 
 body, html {
     font-family: 'Amatic SC', cursive !important;
@@ -18,8 +19,9 @@ body, html {
 /*  START HEADINGS */
 
 .sidenav-heading {
-  font-size: 2.2rem;
+  font-size:3rem;
   color: #f2f2f2;
+  text-decoration: underline;
 }
 
 .main-heading {
@@ -68,13 +70,13 @@ h2:hover {
     overflow-x: hidden;
     transition: 1s;
     padding-top: 60px;
-    text-align:center;
   }
   
   .sidenav p {
+    font-family: 'Josefin Sans', sans-serif;
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 35px;
+    font-size: 18px;
     color: #f2f2f2;
     display: block;
     transition: 0.3s;
@@ -82,7 +84,7 @@ h2:hover {
 
   .sidenav .closebtn {
     text-decoration: none;
-    font-size: 50px !important;
+    font-size: 35px !important;
     color: #f2f2f2 !important;
     display: block;
     transition: 0.3s;
@@ -92,6 +94,12 @@ h2:hover {
     right: 35px;
     font-size: 45px;
     margin-left: 50px;
+  }
+
+  .closebtn::after {
+    content: 'X';
+    color: #f2f2f2;
+    padding-left: .5rem;
   }
 
   .sidenav .closebtn:hover {
