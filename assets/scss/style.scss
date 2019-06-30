@@ -1,0 +1,146 @@
+@import 'helpers/variables';
+@import 'helpers/fonts';
+@import 'layout/responsive';
+@import 'components/buttons';
+
+body, html {
+    font-family: 'Amatic SC', cursive !important;
+}
+
+:root {
+    --input-padding-x: 1.5rem;
+    --input-padding-y: 0.75rem;
+}
+
+/* Boxes Design */
+
+.boxes,
+.image {
+  min-height: 50vh;
+  width: 100%;
+}
+
+/* END Boxes Design */
+
+/* Font Families */
+
+p, ul, li {
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+/* END Font Families */
+
+/* Sidenav Design */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: $backgroundColor;
+    overflow-x: hidden;
+    transition: 1s;
+    padding-top: 60px;
+  }
+  
+  .sidenav p {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: $lightHeading;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidenav .closebtn {
+    text-decoration: none;
+    font-size: 35px !important;
+    color: $lightHeading !important;
+    display: block;
+    transition: 0.3s;
+    position: absolute;
+    text-decoration: none;
+    top: 10px;
+    right: 35px;
+    font-size: 45px;
+    margin-left: 50px;
+  }
+
+  .sidenav-heading {
+    font-size:3rem;
+    color: $sidenavHeading;
+    text-decoration: underline;
+  }  
+
+  .closebtn::after {
+    content: 'X';
+    color: $lightHeading;
+    padding-left: .5rem;
+  }
+
+  .sidenav .closebtn:hover {
+    cursor: pointer;
+  }
+
+  .sidenav a {
+    color:$sidenavAnchor;
+  }
+  
+  .sidenav a:hover{
+    color: $lightHeading;
+  }
+
+  .openNav:hover {
+    text-decoration: line-through;
+  }
+
+  /* END Sidenav Design */
+
+  /* Heading Design */
+
+  /*  START HEADINGS */
+
+.main-heading {
+    width:100%;
+    text-align: center;
+}
+
+.main-heading:hover {
+    cursor: pointer;
+}
+
+.sidenav-subheading {
+    color: $textColor !important;
+}
+
+ul li {
+    font-size:1.1rem;
+    color:$textColor;
+    font-style: italic;
+}
+
+.darker {
+    background: $darkHeading;
+}
+
+.lighter {
+    background: $lightHeading;
+}
+
+.light-heading {
+    color:$lightHeading;
+    font-size:5em;
+}
+
+.dark-heading {
+    color:$darkHeading;
+    font-size:5em;
+}
+
+.active {
+width: 100% !important;
+}
+
+  /* END Heading Design */
