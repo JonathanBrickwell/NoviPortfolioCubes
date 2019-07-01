@@ -1,5 +1,16 @@
 .btn.btn-primary {
     font-family: 'Josefin Sans', sans-serif;
     font-size:14px;
-    color:$textColor
+    color: $darkHeading;
+    font-weight: 700;
+    background-color: $lightHeading;
+    border: 0px;
+    border-radius: 0px;
+    transition: .5s background-color, .5s color;
+}
+
+.btn.btn-primary:hover {
+    color: $lightHeading;
+    background-color: $btnHover;
+    transition: .5s background-color, .5s color;
 }
