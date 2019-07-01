@@ -21,7 +21,8 @@ body, html {
 .boxes,
 .image {
   min-height: 50vh;
-  width: 100%; }
+  width: 100%; 
+}
 
 /* END Boxes Design */
 /* Font Families */
