@@ -46,6 +46,9 @@ body, html {
   min-height: 50vh;
   width: 100%; }
 
+h5, h6, h4 {
+  color: #EAF2F2 !important; }
+
 /* END Boxes Design */
 /* Font Families */
 p, ul, li {
