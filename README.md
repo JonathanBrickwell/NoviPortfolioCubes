@@ -15,7 +15,7 @@ This portfolio was made using :
    - despite the obvious simple nature of this tool, I was eager to learn more about best practices 
 2. SCSS
    - I like to think I am fairly strong in the CSS domain, but I have never dabbled too much with Sass. 
-   - I wanted to use it this project just to cut out all the repetitiveness I have in my CSS files, like defining colors all over again, repeating the sizes of the elements, etc... 
+   - I wanted to use it in this project just to cut out all the repetitiveness I have in my CSS files, like defining colors all over again, repeating the sizes of the elements, etc... 
    - The more I learned and heard about SCSS, the more I knew it was something I desperately needed. The variables, mixins and functions seemed like a perfect remedy to my ill css. 
 3. Good ol' vanilla Javascript
 4. Bootstrap
