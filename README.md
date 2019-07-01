@@ -19,4 +19,5 @@ This portfolio was made using :
    - The more I learned and heard about SCSS, the more I knew it was something I desperately needed. The variables, mixins and functions seemed like a perfect remedy to my ill css. 
 3. Good ol' vanilla Javascript
 4. Bootstrap
+5. A shit ton of investigation 
 
