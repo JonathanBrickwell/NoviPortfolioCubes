@@ -118,10 +118,14 @@ p, ul, li {
 .sidenav-subheading {
   color: #EAF2F2 !important; }
 
-ul li {
+.about-list li {
   font-size: 1.1rem;
   color: #EAF2F2;
   font-style: italic; }
+
+.experience-list li {
+  color: #EAF2F2;
+  font-size: 1.1rem; }
 
 .darker {
   background: #1e1e1e; }
