@@ -115,10 +115,15 @@ p, ul, li {
     color: $textColor !important;
 }
 
-ul li {
+.about-list li {
     font-size:1.1rem;
     color:$textColor;
     font-style: italic;
+}
+
+.experience-list li {
+  color: $textColor;
+  font-size: 1.1rem;
 }
 
 .darker {
