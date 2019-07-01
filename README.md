@@ -9,7 +9,7 @@ So I decided to take matters into my own hands and put an end to this nonsense o
 This portfolio was made using :
 
 1. HTML
-   - even though this might seem like the easiest out of all, it was pretty strange to wrap my head around the concept of ###semantic HTML. 
+   - even though this might seem like the easiest out of all, it was pretty interesting to read about the concept of semantic HTML. 
    - I really wanted to learn how to organise my HTML and use its simple structure to my advantage. 
    - I still suffer from divification, everything is a div, but that's because it's easier for me to work that way in an HTML setting. 
    - despite the obvious simple nature of this tool, I was eager to learn more about best practices 
