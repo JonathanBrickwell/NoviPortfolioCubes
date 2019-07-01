@@ -1,9 +1,12 @@
 /* Color Schemes */
 @import url("https://fonts.googleapis.com/css?family=Amatic+SC:400,700&subset=cyrillic,hebrew,latin-ext,vietnamese");
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
-@media screen and (max-height: 450px) {
+@media screen and (min-height: 320px) and (max-height: 450px) {
   .sidenav a {
-    font-size: 18px; } }
+    font-size: 18px; }
+  .sidenav p {
+    padding-left: 0px;
+    padding-right: 0px; } }
 
 .btn.btn-primary {
   font-family: 'Josefin Sans', sans-serif;
