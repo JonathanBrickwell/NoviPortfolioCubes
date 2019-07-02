@@ -2,6 +2,7 @@
 @import 'helpers/fonts';
 @import 'layout/responsive';
 @import 'components/buttons';
+@import 'components/skillbar';
 
 body, html {
     font-family: 'Amatic SC', cursive !important;
@@ -28,7 +29,7 @@ h5, h6, h4 {
 
 /* Font Families */
 
-p, ul, li {
+p, ul, li, em {
     font-family: 'Josefin Sans', sans-serif;
   }
   
@@ -117,6 +118,7 @@ p, ul, li {
 
 .sidenav-subheading {
     color: $textColor !important;
+    text-decoration:underline;
 }
 
 .about-list li {

@@ -33,6 +33,128 @@
   background-color: #4B5E51;
   transition: .5s background-color, .5s color; }
 
+.content {
+  width: 278px;
+  margin: 0;
+  position: relative;
+  float: left;
+  font-size: 12px;
+  line-height: 2em; }
+
+.skillsbar {
+  width: 320px; }
+
+#skill {
+  list-style: none;
+  padding-top: 30px; }
+
+#skill li {
+  margin-bottom: 70px;
+  background: #000;
+  height: 5px;
+  border-radius: 3px;
+  border-left: 1px solid #111;
+  border-top: 1px solid #111;
+  border-right: 1px solid #333;
+  border-bottom: 1px solid #333; }
+
+#skill li h6 {
+  position: relative;
+  top: -30px;
+  color: #EAF2F2; }
+
+.expand {
+  height: 1px;
+  margin: 2px 0;
+  background: #00FFC9;
+  position: absolute;
+  box-shadow: 0px 0px 10px 1px rgba(0, 255, 111, 0.2); }
+
+.html5 {
+  width: 95%;
+  -moz-animation: html5 2s ease-out;
+  -webkit-animation: html5 2s ease-out; }
+
+.css3 {
+  width: 87%;
+  -moz-animation: css3 2s ease-out;
+  -webkit-animation: css3 2s ease-out; }
+
+.js {
+  width: 75%;
+  -moz-animation: js 2s ease-out;
+  -webkit-animation: js 2s ease-out; }
+
+.angular {
+  width: 70%;
+  -moz-animation: angular 2s ease-out;
+  -webkit-animation: angular 2s ease-out; }
+
+.java {
+  width: 50%;
+  -moz-animation: java 2s ease-out;
+  -webkit-animation: java 2s ease-out; }
+
+@-moz-keyframes html5 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 95%; } }
+
+@-moz-keyframes css3 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 87%; } }
+
+@-moz-keyframes js {
+  0% {
+    width: 0px; }
+  100% {
+    width: 75%; } }
+
+@-moz-keyframes angular {
+  0% {
+    width: 0px; }
+  100% {
+    width: 70%; } }
+
+@-moz-keyframes java {
+  0% {
+    width: 0px; }
+  100% {
+    width: 50%; } }
+
+@-webkit-keyframes html5 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 95%; } }
+
+@-webkit-keyframes css3 {
+  0% {
+    width: 0px; }
+  100% {
+    width: 87%; } }
+
+@-webkit-keyframes js {
+  0% {
+    width: 0px; }
+  100% {
+    width: 75%; } }
+
+@-webkit-keyframes angular {
+  0% {
+    width: 0px; }
+  100% {
+    width: 70%; } }
+
+@-webkit-keyframes java {
+  0% {
+    width: 0px; }
+  100% {
+    width: 50%; } }
+
 body, html {
   font-family: 'Amatic SC', cursive !important; }
 
@@ -51,7 +173,7 @@ h5, h6, h4 {
 
 /* END Boxes Design */
 /* Font Families */
-p, ul, li {
+p, ul, li, em {
   font-family: 'Josefin Sans', sans-serif; }
 
 /* END Font Families */
@@ -122,7 +244,8 @@ p, ul, li {
   cursor: pointer; }
 
 .sidenav-subheading {
-  color: #EAF2F2 !important; }
+  color: #EAF2F2 !important;
+  text-decoration: underline; }
 
 .about-list li {
   font-size: 1.1rem;
