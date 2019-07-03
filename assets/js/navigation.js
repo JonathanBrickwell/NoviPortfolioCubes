@@ -40,3 +40,34 @@ function applyClickOnCloseButton(activeSidenavItem) {
     });
   }
 }
+
+var myRevealingModule = (function () {
+ 
+  var privateCounter = 0;
+
+  function privateFunction() {
+      privateCounter++;
+      console.log("Private counter : " + privateCounter);
+  }
+
+  function publicFunction() {
+      publicIncrement();
+  }
+
+  function publicIncrement() {
+      privateFunction();
+  }
+
+  function publicGetCount(){
+    return privateCounter;
+  }
+
+ return {
+      start: publicFunction,
+      increment: publicIncrement,
+      count: publicGetCount
+  };
+
+})();
+
+myRevealingModule.start();
