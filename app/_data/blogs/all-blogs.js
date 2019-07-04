@@ -2,7 +2,7 @@
 // No one from the outside can do blogs[0].id = 3 and change the id value of our blog from the outside.
 var blogsContainer = (function() {
 
-    const blogs = [
+    var blogs = [
         {
             id: 1,
             name: 'Welcome to my first blog!',
@@ -12,7 +12,7 @@ var blogsContainer = (function() {
     ]
 
     var initialize = function() {
-        const contentOfBlogs = blogs;
+        var contentOfBlogs = blogs;
         return contentOfBlogs;
     }
 
