@@ -1,15 +1,28 @@
-const blogs = [
-    {
-        id: 1,
-        name: "Prvi blog",
-        description: "Opis prvog bloga",
-        imgURL: "assets/img/something.png"
-    },
-    {
-        id: 2,
-        name: "Drugi blog",
-        description: "Ovo je opis drugog bloga",
-        imgURL: "assets/img/drugi.png"
-    }
-]
+// With this I plan on encapsulating data more, so it can't be changed from the outside and my blog content is preserved
+var blogsContainer = (function() {
 
+    var blogs = [
+        {
+            id: 1,
+            name: "Prvi",
+            description: "Opis prvog",
+            imgURL: "assets"
+        },
+        {
+            id: 2,
+            name: "Drugi",
+            description: "Opis drugog",
+            imgURL: "assets"
+        }
+    ]
+
+    var initialize = function() {
+        const contentOfBlog = blogs;
+        return contentOfBlog;
+    }
+
+    return {
+        data: initialize
+    }
+
+})();

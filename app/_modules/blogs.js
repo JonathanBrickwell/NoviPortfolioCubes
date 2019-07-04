@@ -2,7 +2,7 @@ var AllBlogs = (function() {
 
     // blogContent receives the array of objects defined in all-blogs.js
     // I'll have to figure out a better way to encapsulate this data
-    var blogContent = blogs;
+    var blogContent = blogsContainer.data();
 
     // This function primarily deales with looping through the data and sending it to _setData function.
     var _getBlogData = function() {
@@ -11,7 +11,7 @@ var AllBlogs = (function() {
         }
     };
 
-    // A function that action like a set property, there's probably a better way to do this.
+    // A function that acts like a set property, there's probably a better way to do this.
     var _setData = function(id, name, description, url) {
         _renderID(id);
         _renderTitle(name);
