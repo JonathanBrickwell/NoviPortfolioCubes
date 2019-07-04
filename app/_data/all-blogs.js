@@ -1,9 +1,15 @@
 const blogs = [
     {
         id: 1,
-        name: 'First Blog',
-        description: 'Ovo je opis prvog blogića.',
-        imgURL: 'assets/img/something.jpg'
+        name: "Prvi blog",
+        description: "Opis prvog bloga",
+        imgURL: "assets/img/something.png"
+    },
+    {
+        id: 2,
+        name: "Drugi blog",
+        description: "Ovo je opis drugog bloga",
+        imgURL: "assets/img/drugi.png"
     }
 ]
 
