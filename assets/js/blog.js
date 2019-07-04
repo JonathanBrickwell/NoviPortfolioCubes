@@ -1,4 +1,4 @@
-var blogs = [
+const blogs = [
     {
         id: 1,
         name: 'Welcome to my first blog!',
@@ -9,22 +9,22 @@ var blogs = [
 
     var html = '';
 
-    for(let i = 0; i < blogs.length; i++) {
+    for(let i = 0; i < blogContent.length; i++) {
         html += '<div class="col-lg-6 col-md-6 col-sm-12 mb-4">';
         html += '<div class="card h-100">';
-        html += '<a href="#"><img class="card-img-top img-fluid" src="' + blogs[i].imgURL + '" alt=""></a>';
+        html += '<a href="#"><img class="card-img-top img-fluid" src="' + blogContent[i].imgURL + '" alt=""></a>';
         html += '<div class="card-body">';
         html += '<h4 class="card-title">';
-        html += blogs[i].id + ". ";
-        html += '<a href="#">"' + blogs[i].name + '"</a>';
+        html += blogContent[i].id + ". ";
+        html += '<a href="#">"' + blogContent[i].name + '"</a>';
         html += '</h4>';
-        html += '<p class="card-text">"' + blogs[i].description + '"</p>';
+        html += '<p class="card-text">"' + blogContent[i].description + '"</p>';
         html += '</div>';
         html += '</div>';
         html += '</div>';
     }
-    console.log(html);
     _setData(html);
+
 
 function _setData(_html) {
     var blogContentContainer = document.querySelector('.blog-content-section');
