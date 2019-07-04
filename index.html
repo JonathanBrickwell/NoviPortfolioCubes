@@ -298,7 +298,15 @@
                 <div id="blog" class="sidenav">
                     <a class="closebtn">Close</a>
                     <div class="container">
-                        <p>Ovo je blog sekcija.</p>
+                        <div class="row">
+                            <div class="col-md-12 col-lg-12 col-sm-12">
+                                <img src="assets/img/blog-cover.jpg" class="img-fluid pb-4">
+                                <h2 class="sidenav-heading mb-4">My blogs</h2>
+                                <p>Here you can take a look at some of my blogs. <br>
+                                I'll try my best to keep it concise and educational.</p>
+                            </div>
+                        </div>
+                        <div class="row blog-content-section"></div>
                     </div>
                 </div>
             </div>
@@ -344,9 +352,9 @@
     <script src="assets/js/navigation.js?v1.1"></script>
     
     <!-- Modules & Data scripts -->
-    <script src="app/_data/all-blogs.js"></script>
-    <script src="app/_data/single-blog-post.js"></script>
-    <script src="app/_modules/blogs.js"></script>
-    <script src="app/_modules/single-post.js"></script>
+    <script src="app/_data/blogs/all-blogs.js"></script>
+    <script src="app/_data/blogs/single-blog-post.js"></script>
+    <script src="app/_modules/blogs/blogs.js"></script>
+    <script src="app/_modules/blogs/single-post.js"></script>
 </body>
 </html>
