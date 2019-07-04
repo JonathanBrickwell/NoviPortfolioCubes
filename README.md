@@ -9,25 +9,30 @@ So I decided to take matters into my own hands and put an end to this nonsense o
 This portfolio was made using :
 
 1. HTML
-   - even though this might seem like the easiest out of all, it was pretty interesting to read about the concept of semantic HTML. 
-   - I really wanted to learn how to organise my HTML and use its simple structure to my advantage. 
-   - I still suffer from divification, everything is a div, but that's because it's easier for me to work that way in an HTML setting. 
-   - despite the obvious simple nature of this tool, I was eager to learn more about best practices 
-   
 2. SCSS
-   - I like to think I am fairly strong in the CSS domain, but I have never dabbled too much with Sass. 
-   - I wanted to use it in this project just to cut out all the repetitiveness I have in my CSS files, like defining colors all over again, repeating the sizes of the elements, etc... 
-   - The more I learned and heard about SCSS, the more I knew it was something I desperately needed. The variables, mixins and functions seemed like a perfect remedy to my ill css. 
-   
 3. Good ol' vanilla Javascript
-   - Despite the jQuery's simplicity, I wanted to create the dynamic features of this page in the vanilla javascript.
-   - I wanted to explore some potential design patterns such as : Module Revealing pattern, Inheritance, Constructor Pattern, etc...
-   - I needed to brush up on my OOP skills withing JavaScript and this was a perfect opportunity to do so!
-   - If you're into JavaScript design patterns, please feel free to comment & suggest some improvements!
-
 4. Bootstrap
-   - I used Bootstrap for design simplicity, I wanted to avoid spending a lot of time designing my layout using flex and writing custom CSS, that was not the point of this project.
-   - Even though Bootstrap does simplify things a lot, I haven't used it that much before and therefore I wanted to learn the best practices & common used patterns.
-
 5. A shit ton of investigation 
+
+## Architecture - Key points
+
+1. app
+
+    1.1. This folder consists of two subfolders - _data and _modules
+
+    1.1.1. -> _data
+        - Contains containers in which I'll be storing the const values for blogs & other components.
+        - The containers are wrapped in a Module Revealing Pattern, which means that the array declared within the scope cannot be changed from the outside.
+        - If you want to access the array of objects defined within the scope, you will have to call the public function which is returned as ,,data''. 
+        - Example of the call : blogsContainer.data();
+
+    1.1.2. -> _modules
+        - Modules act as functions which access and manipulate the data defined within the _data folder.
+        - With the function _getBlogData() we loop through the object and define the HTML structure for the defined section.
+        - _getBlogData() function passess the defined HTML structure to the _setData() which renders the structure within the index.html.
+
+    1.2. Authors note
+        - This way of communication helps me in organizing certain parts of the application which would repeate constantly if I were to write pure HTML.
+        - For example : if I want to add another set of blogs, I just need to create another object within the ,,blogs'' array with the appropriate values, and the HTML will be dynamically rendered in the index.html file.
+        - Of course, this is far from ideal situation I want to be in, but it enables me to quickly and cleanly adjust the content.
 

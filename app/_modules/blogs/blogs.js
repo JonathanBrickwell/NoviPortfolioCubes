@@ -6,38 +6,30 @@ var AllBlogs = (function() {
 
     // This function primarily deales with looping through the data and sending it to _setData function.
     var _getBlogData = function() {
+
+        var html = '';
+
         for(let i = 0; i < blogContent.length; i++) {
-            _setData(blogContent[i].id, blogContent[i].name, blogContent[i].description, blogContent[i].imgURL);
+            html += '<div class="col-lg-6 mb-4">';
+            html += '<div class="card h-100">';
+            html += '<a href="#"><img class="card-img-top" height="300" width="300" src="' + blogContent[i].imgURL + '" alt=""></a>';
+            html += '<div class="card-body">';
+            html += '<h4 class="card-title">';
+            html += blogContent[i].id + ". ";
+            html += '<a href="#">"' + blogContent[i].name + '"</a>';
+            html += '</h4>';
+            html += '<p class="card-text">"' + blogContent[i].description + '"</p>';
+            html += '</div>';
+            html += '</div>';
+            html += '</div>';
         }
+        _setData(html);
     };
 
     // A function that acts like a set property, there's probably a better way to do this.
-    var _setData = function(id, name, description, url) {
-        _renderID(id);
-        _renderTitle(name);
-        _renderDescription(description);
-        _renderImageUrl(url);
-    }
-
-    // Function for rendering the id of the blog in the HTML
-    var _renderID = function(_id) {
-        var incrementID = _id + 1;
-       console.log(incrementID);
-    }
-
-    // Function for rendering the title of the blog in the HTML
-    var _renderTitle = function(_title) {
-        console.log(_title);
-    }
-
-    // Function for rendering the description of the blog in the HTML
-    var _renderDescription = function(_description) {
-        console.log(_description);
-    }
-
-    // Function for rendering the url of the blog in the HTML
-    var _renderImageUrl = function(_url) {
-        console.log(_url);
+    var _setData = function(_html) {
+        var blogContentContainer = document.querySelector('.blog-content-section');
+        blogContentContainer.innerHTML = _html;
     }
 
     // This is a function that will be passed as the init public function, the one to rule them all.
