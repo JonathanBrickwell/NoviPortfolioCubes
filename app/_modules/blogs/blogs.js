@@ -26,20 +26,15 @@ var AllBlogs = (function() {
         return html;
     };
 
-    // A function that acts like a set property, there's probably a better way to do this.
-    var _setData = function(_html) {
+    // This is a function that will be passed as the init public function, the one to rule them all.
+    var setData = function() {
         var blogContentContainer = document.querySelector('.blog-content-section');
         blogContentContainer.innerHTML = _getBlogData();
-    }
-
-    // This is a function that will be passed as the init public function, the one to rule them all.
-    var publicFunction = function() {
-        _setData();
     };
 
     // return serves as the mechanism that returns (who would've guessed) the publicFuncition as init
     return { 
-        init: publicFunction
+        init: setData
      }
 
 })();
