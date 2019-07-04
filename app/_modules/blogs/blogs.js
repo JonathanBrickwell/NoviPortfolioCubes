@@ -2,32 +2,23 @@ var AllBlogs = (function() {
 
     // blogContent receives the array of objects defined in all-blogs.js
     // I'll have to figure out a better way to encapsulate this data
-    //var blogContent = blogsContainer.data();
-
-    var blogs = [
-        {
-            id: 1,
-            name: 'Welcome to my first blog!',
-            description: 'Allow me to introduce myself & the content you can expect from me in my blogs...',
-            imgURL: 'assets/img/blogs/1.Welcome/1.Welcome-banner.jpg'
-        }
-    ]
+    var blogContent = blogsContainer.data();
 
     // This function primarily deales with looping through the data and sending it to _setData function.
     var _getBlogData = function() {
 
         var html = '';
 
-        for(let i = 0; i < blogs.length; i++) {
+        for(let i = 0; i < blogContent.length; i++) {
             html += '<div class="col-lg-6 col-md-6 col-sm-12 mb-4">';
             html += '<div class="card h-100">';
-            html += '<a href="#"><img class="card-img-top img-fluid" src="' + blogs[i].imgURL + '" alt=""></a>';
+            html += '<a href="#"><img class="card-img-top img-fluid" src="' + blogContent[i].imgURL + '" alt=""></a>';
             html += '<div class="card-body">';
             html += '<h4 class="card-title">';
-            html += blogs[i].id + ". ";
-            html += '<a href="#">"' + blogs[i].name + '"</a>';
+            html += blogContent[i].id + ". ";
+            html += '<a href="#">"' + blogContent[i].name + '"</a>';
             html += '</h4>';
-            html += '<p class="card-text">"' + blogs[i].description + '"</p>';
+            html += '<p class="card-text">"' + blogContent[i].description + '"</p>';
             html += '</div>';
             html += '</div>';
             html += '</div>';
@@ -49,4 +40,4 @@ var AllBlogs = (function() {
 })();
 
 // With this we can access the init property which is actually our publicFunction that rules them all!
-AllBlogs.init();
+window.onload = AllBlogs.init();
