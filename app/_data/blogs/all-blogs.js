@@ -20,3 +20,5 @@ var blogsContainer = (function() {
         data: initialize
     }
 })();
+
+blogsContainer.data();

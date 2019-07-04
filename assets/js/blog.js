@@ -25,9 +25,6 @@ for(let i = 0; i < blogs.length; i++) {
 }
 _setData(html);    
 
-
-
-
 function _setData(_html) {
     var blogContentContainer = document.querySelector('.blog-content-section');
     blogContentContainer.innerHTML = _html;
