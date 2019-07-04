@@ -10,9 +10,9 @@ var AllBlogs = (function() {
         var html = '';
 
         for(let i = 0; i < blogContent.length; i++) {
-            html += '<div class="col-lg-6 col-sm-12 col-md-6 mb-4">';
+            html += '<div class="col-lg-6 col-md-6 col-sm-12 mb-4">';
             html += '<div class="card h-100">';
-            html += '<a href="#"><img class="card-img-top" height="300" width="300" src="' + blogContent[i].imgURL + '" alt=""></a>';
+            html += '<a href="#"><img class="card-img-top img-fluid" src="' + blogContent[i].imgURL + '" alt=""></a>';
             html += '<div class="card-body">';
             html += '<h4 class="card-title">';
             html += blogContent[i].id + ". ";
