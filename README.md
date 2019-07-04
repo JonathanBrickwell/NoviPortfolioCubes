@@ -22,8 +22,12 @@ This portfolio was made using :
 3. Good ol' vanilla Javascript
    - Despite the jQuery's simplicity, I wanted to create the dynamic features of this page in the vanilla javascript.
    - I wanted to explore some potential design patterns such as : Module Revealing pattern, Inheritance, Constructor Pattern, etc...
-   - I needed to brush up on my OOP skills withing JavaScript, so if you like jQuery, I'm sorry but you won't find any here.
-   - But if you're into JavaScript design patterns, please feel free to comment & suggest some improvements!
+   - I needed to brush up on my OOP skills withing JavaScript and this was a perfect opportunity to do so!
+   - If you're into JavaScript design patterns, please feel free to comment & suggest some improvements!
+
 4. Bootstrap
+   - I used Bootstrap for design simplicity, I wanted to avoid spending a lot of time designing my layout using flex and writing custom CSS, that was not the point of this project.
+   - Even though Bootstrap does simplify things a lot, I haven't used it that much before and therefore I wanted to learn the best practices & common used patterns.
+
 5. A shit ton of investigation 
 
