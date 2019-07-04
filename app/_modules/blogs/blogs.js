@@ -34,6 +34,7 @@ var AllBlogs = (function() {
 
     // This is a function that will be passed as the init public function, the one to rule them all.
     var publicFunction = function() {
+        _setData();
         _getBlogData();
     };
 
