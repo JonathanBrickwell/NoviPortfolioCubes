@@ -25,6 +25,4 @@ var singleBlogPostContainer = (function() {
     return {
         data: initialize
     }
-
-
 })();

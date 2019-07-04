@@ -25,5 +25,4 @@ var blogsContainer = (function() {
     return {
         data: initialize
     }
-
 })();
