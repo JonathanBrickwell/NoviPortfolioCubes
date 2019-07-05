@@ -7,10 +7,7 @@
     font-size: 18px; }
   .sidenav p {
     padding-left: 0px;
-    padding-right: 0px; }
-  .home-arrow {
-    left: 5px;
-    margin-left: 5px; } }
+    padding-right: 0px; } }
 
 .btn.btn-primary {
   font-family: 'Josefin Sans', sans-serif;
@@ -314,6 +311,6 @@ p, ul, li, em {
   text-decoration: none;
   background: #1e1e1e;
   top: 10px;
-  left: 35px;
+  left: 5px;
   font-size: 45px;
-  margin-left: 50px; }
+  margin-left: 5px; }
