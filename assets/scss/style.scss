@@ -6,7 +6,7 @@
 @import 'components/card';
 
 body, html {
-    font-family: 'Amatic SC', cursive !important;
+  font-family: 'Amatic SC', cursive !important;
 }
 
 :root {
@@ -68,6 +68,7 @@ p, ul, li, em {
     transition: 0.3s;
     position: absolute;
     text-decoration: none;
+    background: $backgroundColor;
     top: 10px;
     right: 35px;
     font-size: 45px;
@@ -76,7 +77,7 @@ p, ul, li, em {
 
   .sidenav-heading {
     font-size:3rem;
-    color: $sidenavHeading;
+    color: $greenHeading;
     text-decoration: underline;
   }  
 
@@ -102,9 +103,27 @@ p, ul, li, em {
     text-decoration: line-through;
   }
 
-  /* END Sidenav Design */
+  // .about-sidenav {
+  //   background: $blackBackground;
+  // }
 
-  /* Heading Design */
+  // .projects-sidenav {
+  //   background: $whiteBackground;
+  // }
+
+  // .experience-sidenav {
+  //   background: $greenBackground;
+  // }
+
+  // .blog-sidenav {
+  //   background: $mildCube;
+  // }
+
+  // .contact-sidenav {
+  //   background: $blackBackground;
+  // }
+
+  /* END Sidenav Design */
 
   /*  START HEADINGS */
 
@@ -147,7 +166,7 @@ p, ul, li, em {
 }
 
 .dark-heading {
-    color:$darkHeading;
+    color:$mildHeading;
     font-size:5em;
 }
 
@@ -155,4 +174,22 @@ p, ul, li, em {
 width: 100% !important;
 }
 
-  /* END Heading Design */
+/* END Heading Design */
+
+/* CUBES */
+
+.white-cube {
+  background: $whiteBackground;
+}
+
+.dark-cube {
+  background: $blackBackground;
+}
+
+.green-cube {
+  background: $greenBackground;
+}
+
+.mild-cube {
+  background: $mildCube;
+}
