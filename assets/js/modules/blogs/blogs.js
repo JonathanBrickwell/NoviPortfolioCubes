@@ -12,11 +12,11 @@ var AllBlogs = (function() {
         for(let i = 0; i < blogContent.length; i++) {
             html += '<div class="col-lg-6 col-md-6 col-sm-12 mb-4">';
             html += '<a class="card">';
-            html += '<a href="#"><img class="card-img-top img-fluid" src="' + blogContent[i].imgURL + '" alt=""></a>';
+            html += '<a href="' + blogContent[i].destination + '"><img class="card-img-top img-fluid" src="' + blogContent[i].imgURL + '" alt=""></a>';
             html += '<div class="card-body">';
             html += '<h4 class="card-title">';
             html += blogContent[i].id + ". ";
-            html += '<a href="#">"' + blogContent[i].name + '"</a>';
+            html += '<a href="' + blogContent[i].destination + '">"' + blogContent[i].name + '"</a>';
             html += '</h4>';
             html += '<p class="card-text">"' + blogContent[i].description + '"</p>';
             html += '</div>';

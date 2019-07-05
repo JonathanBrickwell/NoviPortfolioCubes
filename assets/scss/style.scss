@@ -43,11 +43,11 @@ p, ul, li, em {
     width: 0;
     position: fixed;
     z-index: 1;
-    top: 0;
+    bottom: 0;
     right: 0;
     background-color: $firstCube;
     overflow-x: hidden;
-    transition: 1s;
+    transition: .5s width;
     padding-top: 60px;
   }
   
@@ -177,3 +177,25 @@ width: 100% !important;
   background: $fifthCube;
 }
 
+// Blogs
+
+.home-arrow::before {
+  content: '<<';
+  color: $lightHeading;
+  padding-right: .5rem;
+}
+
+.home-arrow {
+  text-decoration: none;
+    font-size: 35px !important;
+    color: $lightHeading !important;
+    display: block;
+    transition: 0.3s;
+    position: absolute;
+    text-decoration: none;
+    background: $darkHeading;
+    top: 10px;
+    left: 35px;
+    font-size: 45px;
+    margin-left: 50px;
+}
