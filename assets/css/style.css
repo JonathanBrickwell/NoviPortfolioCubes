@@ -158,6 +158,9 @@
 .card-body {
   background-color: #2b2b2b; }
 
+.card {
+  background-color: transparent !important; }
+
 body, html {
   font-family: 'Amatic SC', cursive !important; }
 

@@ -11,7 +11,7 @@ var AllBlogs = (function() {
 
         for(let i = 0; i < blogContent.length; i++) {
             html += '<div class="col-lg-6 col-md-6 col-sm-12 mb-4">';
-            html += '<div class="card h-100">';
+            html += '<a class="card">';
             html += '<a href="#"><img class="card-img-top img-fluid" src="' + blogContent[i].imgURL + '" alt=""></a>';
             html += '<div class="card-body">';
             html += '<h4 class="card-title">';
@@ -20,7 +20,7 @@ var AllBlogs = (function() {
             html += '</h4>';
             html += '<p class="card-text">"' + blogContent[i].description + '"</p>';
             html += '</div>';
-            html += '</div>';
+            html += '</a>';
             html += '</div>';
         }
         return html;
