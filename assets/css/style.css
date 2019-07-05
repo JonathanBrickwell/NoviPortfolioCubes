@@ -192,7 +192,7 @@ p, ul, li, em {
   z-index: 1;
   top: 0;
   right: 0;
-  background-color: #111111;
+  background-color: #1e1e1e;
   overflow-x: hidden;
   transition: 1s;
   padding-top: 60px; }
@@ -213,7 +213,7 @@ p, ul, li, em {
   transition: 0.3s;
   position: absolute;
   text-decoration: none;
-  background: #111111;
+  background: #1e1e1e;
   top: 10px;
   right: 35px;
   font-size: 45px;

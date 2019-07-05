@@ -45,7 +45,7 @@ p, ul, li, em {
     z-index: 1;
     top: 0;
     right: 0;
-    background-color: $backgroundColor;
+    background-color: $darkHeading;
     overflow-x: hidden;
     transition: 1s;
     padding-top: 60px;
@@ -68,7 +68,7 @@ p, ul, li, em {
     transition: 0.3s;
     position: absolute;
     text-decoration: none;
-    background: $backgroundColor;
+    background: $darkHeading;
     top: 10px;
     right: 35px;
     font-size: 45px;
