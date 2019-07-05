@@ -9,7 +9,8 @@
     padding-left: 0px;
     padding-right: 0px; }
   .home-arrow {
-    left: 5px !important; } }
+    left: 5px;
+    margin-left: 5px; } }
 
 .btn.btn-primary {
   font-family: 'Josefin Sans', sans-serif;
