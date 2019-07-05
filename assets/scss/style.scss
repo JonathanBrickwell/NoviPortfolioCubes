@@ -68,6 +68,7 @@ p, ul, li, em {
     transition: 0.3s;
     position: absolute;
     text-decoration: none;
+    background: $backgroundColor;
     top: 10px;
     right: 35px;
     font-size: 45px;
@@ -102,9 +103,27 @@ p, ul, li, em {
     text-decoration: line-through;
   }
 
-  /* END Sidenav Design */
+  // .about-sidenav {
+  //   background: $blackBackground;
+  // }
 
-  /* Heading Design */
+  // .projects-sidenav {
+  //   background: $whiteBackground;
+  // }
+
+  // .experience-sidenav {
+  //   background: $greenBackground;
+  // }
+
+  // .blog-sidenav {
+  //   background: $mildCube;
+  // }
+
+  // .contact-sidenav {
+  //   background: $blackBackground;
+  // }
+
+  /* END Sidenav Design */
 
   /*  START HEADINGS */
 
@@ -155,7 +174,7 @@ p, ul, li, em {
 width: 100% !important;
 }
 
-  /* END Heading Design */
+/* END Heading Design */
 
 /* CUBES */
 

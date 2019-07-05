@@ -213,6 +213,7 @@ p, ul, li, em {
   transition: 0.3s;
   position: absolute;
   text-decoration: none;
+  background: #111111;
   top: 10px;
   right: 35px;
   font-size: 45px;
@@ -241,7 +242,6 @@ p, ul, li, em {
   text-decoration: line-through; }
 
 /* END Sidenav Design */
-/* Heading Design */
 /*  START HEADINGS */
 .main-heading {
   width: 100%;
