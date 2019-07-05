@@ -6,7 +6,7 @@
 @import 'components/card';
 
 body, html {
-    font-family: 'Amatic SC', cursive !important;
+  font-family: 'Amatic SC', cursive !important;
 }
 
 :root {
@@ -76,7 +76,7 @@ p, ul, li, em {
 
   .sidenav-heading {
     font-size:3rem;
-    color: $sidenavHeading;
+    color: $greenHeading;
     text-decoration: underline;
   }  
 
@@ -147,7 +147,7 @@ p, ul, li, em {
 }
 
 .dark-heading {
-    color:$darkHeading;
+    color:$mildHeading;
     font-size:5em;
 }
 
@@ -156,3 +156,21 @@ width: 100% !important;
 }
 
   /* END Heading Design */
+
+/* CUBES */
+
+.white-cube {
+  background: $whiteBackground;
+}
+
+.dark-cube {
+  background: $blackBackground;
+}
+
+.green-cube {
+  background: $greenBackground;
+}
+
+.mild-cube {
+  background: $mildCube;
+}
