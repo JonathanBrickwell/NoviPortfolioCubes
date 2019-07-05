@@ -77,7 +77,7 @@ p, ul, li, em {
 
   .sidenav-heading {
     font-size:3rem;
-    color: $greenHeading;
+    color: $lightHeading;
     text-decoration: underline;
   }  
 
@@ -169,6 +169,14 @@ width: 100% !important;
   background: $greenBackground;
 }
 
-.mild-cube {
-  background: $mildCube;
+.grey-cube {
+  background: $grey;
+}
+
+.darker-grey-cube {
+  background: $darkerGrey;
+}
+
+.red-cube {
+  background: $redBackground;
 }
