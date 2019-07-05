@@ -169,6 +169,12 @@
 .card {
   background-color: transparent !important; }
 
+h4.card-title {
+  font-size: 1.8rem; }
+
+h4.card-title a {
+  font-size: 32px; }
+
 body, html {
   font-family: 'Amatic SC', cursive !important; }
 
