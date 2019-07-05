@@ -221,7 +221,7 @@ p, ul, li, em {
 
 .sidenav-heading {
   font-size: 3rem;
-  color: #fff;
+  color: #f2f2f2;
   text-decoration: underline; }
 
 .closebtn::after {
@@ -245,6 +245,7 @@ p, ul, li, em {
 /*  START HEADINGS */
 .main-heading {
   width: 100%;
+  font-size: 5em;
   text-align: center; }
 
 .main-heading:hover {
@@ -270,12 +271,10 @@ p, ul, li, em {
   background: #f2f2f2; }
 
 .light-heading {
-  color: #f2f2f2;
-  font-size: 5em; }
+  color: #f2f2f2; }
 
 .dark-heading {
-  color: #414141;
-  font-size: 5em; }
+  color: #414141; }
 
 .active {
   width: 100% !important; }
@@ -289,7 +288,13 @@ p, ul, li, em {
   background: #1e1e1e; }
 
 .green-cube {
-  background: #566B5C; }
+  background: #33332E; }
 
-.mild-cube {
+.grey-cube {
   background: #dddddd; }
+
+.darker-grey-cube {
+  background: #B8B8B8; }
+
+.red-cube {
+  background: #6B6060; }
