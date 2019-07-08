@@ -143,10 +143,12 @@ p, ul, li, em {
 
 .light-heading {
     color:$lightHeading;
+    background-color: rgba(0, 0, 0, .8);
 }
 
 .dark-heading {
     color:$mildHeading;
+    background-color: rgba(255, 255, 255, .8);
 }
 
 .active {
@@ -158,23 +160,39 @@ width: 100% !important;
 /* CUBES */
 
 .first-cube {
-  background: $firstCube;
+  background: url('../img/background_img/about-me-cover.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
 }
 
 .second-cube {
-  background: $secondCube;
+  background: url('../img/background_img/projects.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .third-cube {
-  background: $thirdCube;
+  background: url('../img/background_img/experience.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .fourth-cube {
-  background: $fourthCube;
+  background: url('../img/background_img/blog.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .fifth-cube {
-  background: $fifthCube;
+  background: url('../img/background_img/contact.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 // Blogs

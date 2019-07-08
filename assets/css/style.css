@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Amatic+SC:400,700&subset=cyrillic,hebrew,latin-ext,vietnamese");
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Yeseva+One&display=swap");
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .sidenav a {
     font-size: 18px; }
@@ -336,10 +337,12 @@ p, ul, li, em {
   background: #f2f2f2; }
 
 .light-heading {
-  color: #f2f2f2; }
+  color: #f2f2f2;
+  background-color: rgba(0, 0, 0, 0.8); }
 
 .dark-heading {
-  color: #414141; }
+  color: #414141;
+  background-color: rgba(255, 255, 255, 0.8); }
 
 .active {
   width: 100% !important; }
@@ -347,19 +350,34 @@ p, ul, li, em {
 /* END Heading Design */
 /* CUBES */
 .first-cube {
-  background: #1D1B1C; }
+  background: url("../img/background_img/about-me-cover.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 .second-cube {
-  background: #F1F2F7; }
+  background: url("../img/background_img/projects.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 .third-cube {
-  background: #434247; }
+  background: url("../img/background_img/experience.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 .fourth-cube {
-  background: #828081; }
+  background: url("../img/background_img/blog.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 .fifth-cube {
-  background: #D8D3D2; }
+  background: url("../img/background_img/contact.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 .home-arrow::before {
   content: '<<';
