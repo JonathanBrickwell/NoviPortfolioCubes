@@ -6,10 +6,6 @@
 @import 'components/card';
 @import 'components/thankyou';
 
-body, html {
-  font-family: 'Amatic SC', cursive !important;
-}
-
 :root {
     --input-padding-x: 1.5rem;
     --input-padding-y: 0.75rem;
@@ -27,12 +23,16 @@ h5, h6, h4 {
   color: $textColor !important;
 }
 
+h2 {
+  font-family: 'Exo', sans-serif !important;
+}
+
 /* END Boxes Design */
 
 /* Font Families */
 
 p, ul, li, em {
-    font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Vollkorn', serif;
   }
   
 /* END Font Families */
@@ -63,7 +63,7 @@ p, ul, li, em {
 
   .sidenav .closebtn {
     text-decoration: none;
-    font-size: 35px !important;
+    font-size: 28px !important;
     color: $lightHeading !important;
     display: block;
     transition: 0.3s;
@@ -76,7 +76,7 @@ p, ul, li, em {
   }
 
   .sidenav-heading {
-    font-size:3rem;
+    font-size:32px;
     color: $lightHeading;
     text-decoration: underline;
   }  
@@ -109,7 +109,8 @@ p, ul, li, em {
 
 .main-heading {
     width:100%;
-    font-size:5em;
+    font-size:42px;
+    font-weight: 700 !important;
     text-align: center;
 }
 
