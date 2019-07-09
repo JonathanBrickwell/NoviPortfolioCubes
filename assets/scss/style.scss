@@ -40,15 +40,16 @@ p, ul, li, em {
 /* Sidenav Design */
 
 .sidenav {
-    height: 100%;
-    width: 0;
     position: fixed;
-    z-index: 1;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    z-index: -1;
     bottom: 0;
     right: 0;
     background-color: $firstCube;
     overflow-x: hidden;
-    transition: .5s width;
+    transition: opacity 1s;
     padding-top: 60px;
   }
   
@@ -144,16 +145,16 @@ p, ul, li, em {
 
 .light-heading {
     color:$lightHeading;
-    background-color: rgba(0, 0, 0, .8);
 }
 
 .dark-heading {
     color:$mildHeading;
-    background-color: rgba(255, 255, 255, .8);
 }
 
 .active {
-width: 100% !important;
+  opacity: 1;
+  z-index: 1;
+  transition: .8s opacity, .8s z-index;
 }
 
 /* END Heading Design */
@@ -161,39 +162,23 @@ width: 100% !important;
 /* CUBES */
 
 .first-cube {
-  background: url('../img/background_img/about-me-cover.jpg');
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-
+  background: $firstCube;
 }
 
 .second-cube {
-  background: url('../img/background_img/projects.jpg');
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: $secondCube;
 }
 
 .third-cube {
-  background: url('../img/background_img/experience.jpg');
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: $thirdCube;
 }
 
 .fourth-cube {
-  background: url('../img/background_img/blog.jpg');
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: $fourthCube;
 }
 
 .fifth-cube {
-  background: url('../img/background_img/contact.jpg');
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: $fifthCube;
 }
 
 // Blogs

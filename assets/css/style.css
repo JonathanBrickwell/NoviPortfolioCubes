@@ -227,7 +227,7 @@ h4.card-title a {
   background-color: #3b5998; }
 
 .ty-btn {
-  background: #F1F2F7; }
+  background: #2B312D; }
 
 :root {
   --input-padding-x: 1.5rem;
@@ -253,15 +253,16 @@ p, ul, li, em {
 /* END Font Families */
 /* Sidenav Design */
 .sidenav {
-  height: 100%;
-  width: 0;
   position: fixed;
-  z-index: 1;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  z-index: -1;
   bottom: 0;
   right: 0;
-  background-color: #1D1B1C;
+  background-color: #1A1E1D;
   overflow-x: hidden;
-  transition: .5s width;
+  transition: opacity 1s;
   padding-top: 60px; }
 
 .sidenav p {
@@ -338,47 +339,32 @@ p, ul, li, em {
   background: #f2f2f2; }
 
 .light-heading {
-  color: #f2f2f2;
-  background-color: rgba(0, 0, 0, 0.8); }
+  color: #f2f2f2; }
 
 .dark-heading {
-  color: #414141;
-  background-color: rgba(255, 255, 255, 0.8); }
+  color: #414141; }
 
 .active {
-  width: 100% !important; }
+  opacity: 1;
+  z-index: 1;
+  transition: .8s opacity, .8s z-index; }
 
 /* END Heading Design */
 /* CUBES */
 .first-cube {
-  background: url("../img/background_img/about-me-cover.jpg");
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat; }
+  background: #1A1E1D; }
 
 .second-cube {
-  background: url("../img/background_img/projects.jpg");
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat; }
+  background: #2B312D; }
 
 .third-cube {
-  background: url("../img/background_img/experience.jpg");
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat; }
+  background: #57605D; }
 
 .fourth-cube {
-  background: url("../img/background_img/blog.jpg");
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat; }
+  background: #222625; }
 
 .fifth-cube {
-  background: url("../img/background_img/contact.jpg");
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat; }
+  background: #333937; }
 
 .home-arrow::before {
   content: '<<';
