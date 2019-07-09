@@ -11,31 +11,17 @@
     --input-padding-y: 0.75rem;
 }
 
-/* Boxes Design */
-
-.boxes,
-.image {
-  min-height: 50vh;
-  width: 100%;
-}
+/* Primary elements design */
 
 h5, h6, h4 {
   color: $textColor !important;
 }
 
-h2 {
-  font-family: 'Exo', sans-serif !important;
+a {
+  text-decoration:none;
 }
 
-/* END Boxes Design */
-
-/* Font Families */
-
-p, ul, li, em {
-  font-family: 'Vollkorn', serif;
-  }
-  
-/* END Font Families */
+/* END Primary elements design */
 
 /* Sidenav Design */
 
@@ -43,13 +29,10 @@ p, ul, li, em {
     position: fixed;
     height: 100%;
     width: 100%;
-    opacity: 0;
-    z-index: -1;
     bottom: 0;
     right: 0;
-    background-color: $firstCube;
+    background-color: $backgroundColor;
     overflow-x: hidden;
-    transition: opacity 1s;
     padding-top: 60px;
   }
   
@@ -70,7 +53,7 @@ p, ul, li, em {
     transition: 0.3s;
     position: absolute;
     text-decoration: none;
-    background: $darkHeading;
+    background: $backgroundColor;
     top: 10px;
     right: 35px;
     font-size: 45px;
@@ -100,23 +83,29 @@ p, ul, li, em {
     color: $lightHeading;
   }
 
-  .openNav:hover {
-    text-decoration: line-through;
-  }
-
   /* END Sidenav Design */
 
   /*  START HEADINGS */
 
 .main-heading {
     width:100%;
-    font-size:48px;
+    font-size:3rem;
     font-weight: 700 !important;
     text-align: center;
 }
 
+.main-heading a {
+  text-decoration: none;
+  color: $textColor;
+}
+
 .main-heading:hover {
     cursor: pointer;
+}
+
+.main-heading a:hover {
+  text-decoration: none;
+  color: $textColor;
 }
 
 .sidenav-subheading {
@@ -151,34 +140,12 @@ p, ul, li, em {
     color:$mildHeading;
 }
 
-.active {
-  opacity: 1;
-  z-index: 1;
-  transition: .8s opacity, .8s z-index;
-}
-
 /* END Heading Design */
 
 /* CUBES */
 
-.first-cube {
-  background: $firstCube;
-}
-
-.second-cube {
-  background: $secondCube;
-}
-
-.third-cube {
-  background: $thirdCube;
-}
-
-.fourth-cube {
-  background: $fourthCube;
-}
-
-.fifth-cube {
-  background: $fifthCube;
+#about-me {
+  background: $backgroundColor;
 }
 
 // Blogs
@@ -197,7 +164,7 @@ p, ul, li, em {
     transition: 0.3s;
     position: absolute;
     text-decoration: none;
-    background: $darkHeading;
+    background: $backgroundColor;
     top: 10px;
     left: 5px;
     font-size: 45px;

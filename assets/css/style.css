@@ -1,8 +1,13 @@
 /* Color Schemes */
-@import url("https://fonts.googleapis.com/css?family=Amatic+SC:400,700&subset=cyrillic,hebrew,latin-ext,vietnamese");
-@import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Exo:400,700&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Vollkorn&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Prompt:400,700&display=swap");
+p, ul, li, em {
+  font-family: 'Prompt', sans-serif;
+  font-weight: 300; }
+
+h2 {
+  font-family: 'Prompt', sans-serif !important;
+  font-weight: 700; }
+
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .sidenav a {
     font-size: 18px; }
@@ -12,6 +17,13 @@
   .sidenav .closebtn {
     left: 5px;
     margin-left: 5px; } }
+
+@media (min-width: 768px) {
+  .container-fluid, .cube {
+    min-height: 100vh; }
+  section {
+    min-height: 100vh;
+    width: 100%; } }
 
 .btn.btn-light {
   font-family: 'Josefin Sans', sans-serif;
@@ -233,36 +245,23 @@ h4.card-title a {
   --input-padding-x: 1.5rem;
   --input-padding-y: 0.75rem; }
 
-/* Boxes Design */
-.boxes,
-.image {
-  min-height: 50vh;
-  width: 100%; }
-
+/* Primary elements design */
 h5, h6, h4 {
   color: #EAF2F2 !important; }
 
-h2 {
-  font-family: 'Exo', sans-serif !important; }
+a {
+  text-decoration: none; }
 
-/* END Boxes Design */
-/* Font Families */
-p, ul, li, em {
-  font-family: 'Vollkorn', serif; }
-
-/* END Font Families */
+/* END Primary elements design */
 /* Sidenav Design */
 .sidenav {
   position: fixed;
   height: 100%;
   width: 100%;
-  opacity: 0;
-  z-index: -1;
   bottom: 0;
   right: 0;
-  background-color: #1A1E1D;
+  background-color: #0B0C08;
   overflow-x: hidden;
-  transition: opacity 1s;
   padding-top: 60px; }
 
 .sidenav p {
@@ -281,7 +280,7 @@ p, ul, li, em {
   transition: 0.3s;
   position: absolute;
   text-decoration: none;
-  background: #1e1e1e;
+  background: #0B0C08;
   top: 10px;
   right: 35px;
   font-size: 45px; }
@@ -305,19 +304,24 @@ p, ul, li, em {
 .sidenav a:hover {
   color: #f2f2f2; }
 
-.openNav:hover {
-  text-decoration: line-through; }
-
 /* END Sidenav Design */
 /*  START HEADINGS */
 .main-heading {
   width: 100%;
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 700 !important;
   text-align: center; }
 
+.main-heading a {
+  text-decoration: none;
+  color: #EAF2F2; }
+
 .main-heading:hover {
   cursor: pointer; }
+
+.main-heading a:hover {
+  text-decoration: none;
+  color: #EAF2F2; }
 
 .sidenav-subheading {
   color: #EAF2F2 !important;
@@ -344,27 +348,10 @@ p, ul, li, em {
 .dark-heading {
   color: #414141; }
 
-.active {
-  opacity: 1;
-  z-index: 1;
-  transition: .8s opacity, .8s z-index; }
-
 /* END Heading Design */
 /* CUBES */
-.first-cube {
-  background: #1A1E1D; }
-
-.second-cube {
-  background: #2B312D; }
-
-.third-cube {
-  background: #57605D; }
-
-.fourth-cube {
-  background: #222625; }
-
-.fifth-cube {
-  background: #333937; }
+#about-me {
+  background: #0B0C08; }
 
 .home-arrow::before {
   content: '<<';
@@ -379,7 +366,7 @@ p, ul, li, em {
   transition: 0.3s;
   position: absolute;
   text-decoration: none;
-  background: #1e1e1e;
+  background: #0B0C08;
   top: 10px;
   left: 5px;
   font-size: 45px;
