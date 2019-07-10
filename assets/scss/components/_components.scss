@@ -70,10 +70,6 @@
     text-align: center;
 }
 
-.main-heading:hover {
-    cursor: pointer;
-}
-
 .main-heading a:hover {
   text-decoration: none;
   color: $textColor;
@@ -144,3 +140,11 @@
     color:$btnHover;
     transition: .5s color;
   }
+
+// END MENU
+
+// HOMEPAGE DESIGN
+
+.main-text {
+  color: $lightHeading;
+}

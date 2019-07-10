@@ -298,9 +298,6 @@ h4.card-title a {
   font-weight: 700 !important;
   text-align: center; }
 
-.main-heading:hover {
-  cursor: pointer; }
-
 .main-heading a:hover {
   text-decoration: none;
   color: #EAF2F2; }
@@ -355,6 +352,33 @@ h4.card-title a {
   color: #4B5E51;
   transition: .5s color; }
 
+.main-text {
+  color: #f2f2f2; }
+
+.arrow {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.arrow span {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-bottom: 5px solid #EAF2F2;
+  border-right: 5px solid #EAF2F2;
+  transform: rotate(45deg);
+  animation: animate 1s infinite; }
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-3px, -3px); }
+  50% {
+    opacity: 1; }
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(3px, 3px); } }
+
 :root {
   --input-padding-x: 1.5rem;
   --input-padding-y: 0.75rem; }
@@ -367,13 +391,11 @@ a {
 
 section {
   display: flex !important;
-  align-items: center; }
+  align-items: center;
+  background: #0B0C08; }
 
 main {
   margin-top: -50px; }
-
-#about-me {
-  background: #0B0C08; }
 
 .cube col {
   justify-content: center; }

@@ -6,6 +6,7 @@
 @import 'components/card';
 @import 'components/thankyou';
 @import 'components/components';
+@import 'components/arrow';
 
 // BOOTSTRAP INITIAL SPACING
 :root {
@@ -27,14 +28,11 @@ a {
 section {
   display:flex !important;
   align-items: center;
+  background: $backgroundColor;
 }
 
 main {
   margin-top: -50px;
-}
-
-#about-me {
-  background: $backgroundColor;
 }
 
 .cube col {
