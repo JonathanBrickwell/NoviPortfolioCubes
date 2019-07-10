@@ -298,10 +298,6 @@ h4.card-title a {
   font-weight: 700 !important;
   text-align: center; }
 
-.main-heading a:hover {
-  text-decoration: none;
-  color: #EAF2F2; }
-
 .content-subheading {
   color: #EAF2F2 !important;
   text-decoration: underline; }
