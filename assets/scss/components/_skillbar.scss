@@ -1,14 +1,6 @@
-.content {
-    width: 278px;
-    margin: 0;
-    position: relative;
-    float: left;
-    font-size: 12px;
-    line-height: 2em;
-}
-
 .skillsbar {
-    width: 320px;
+    width: 350px;
+    position: relative;
 }
 
 #skill {
@@ -17,6 +9,7 @@
 }
 
 #skill li {
+    width:350px;
     margin-bottom: 70px;
     background: #000;
     height: 5px;

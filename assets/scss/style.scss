@@ -15,7 +15,7 @@
 }
 
 // BASIC STYLES FOR HEADERS
-h5, h6, h4 {
+h3, h5, h6, h4 {
   color: $textColor !important;
 }
 
@@ -25,9 +25,13 @@ a {
 }
 
 // MAIN SECTIONS
-section {
+.section-wrapper {
   display:flex !important;
   align-items: center;
+  background: $backgroundColor;
+}
+
+.experience-wrapper {
   background: $backgroundColor;
 }
 
@@ -49,6 +53,17 @@ main {
 .experience-list li {
   color: $textColor;
   font-size: 1.1rem;
+}
+
+.experience-list a {
+  color: $contentAnchor;
+  transition: 1s color;
+}
+
+.experience-list a:hover {
+  color:$btnHover;
+  text-decoration: none;
+  transition: 1s color;
 }
 
 

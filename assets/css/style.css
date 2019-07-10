@@ -3,9 +3,9 @@ p, ul, li, em {
   font-family: 'Prompt', sans-serif;
   font-weight: 300; }
 
-h2 {
+h2, h3, h4 {
   font-family: 'Prompt', sans-serif !important;
-  font-weight: 700; }
+  font-weight: 700 !important; }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .content a {
@@ -16,12 +16,12 @@ h2 {
   .content .closebtn {
     left: 5px;
     margin-left: 5px; }
-  section {
+  .section-wrapper {
     min-height: 50vh;
     width: 100%; } }
 
 @media (min-width: 768px) {
-  section {
+  .section-wrapper {
     min-height: 100vh;
     width: 100%; } }
 
@@ -57,22 +57,16 @@ h2 {
 .btn-light:not(:disabled):not(.disabled).active, .btn-light:not(:disabled):not(.disabled):active, .show > .btn-light.dropdown-toggle {
   border-color: transparent !important; }
 
-.content {
-  width: 278px;
-  margin: 0;
-  position: relative;
-  float: left;
-  font-size: 12px;
-  line-height: 2em; }
-
 .skillsbar {
-  width: 320px; }
+  width: 350px;
+  position: relative; }
 
 #skill {
   list-style: none;
   padding-top: 30px; }
 
 #skill li {
+  width: 350px;
   margin-bottom: 70px;
   background: #000;
   height: 5px;
@@ -286,7 +280,7 @@ h4.card-title a {
   cursor: pointer; }
 
 .content a {
-  color: #F2B80C; }
+  color: #f28e1c; }
 
 .content a:hover {
   color: #f2f2f2; }
@@ -424,15 +418,18 @@ h4.card-title a {
   --input-padding-x: 1.5rem;
   --input-padding-y: 0.75rem; }
 
-h5, h6, h4 {
+h3, h5, h6, h4 {
   color: #EAF2F2 !important; }
 
 a {
   text-decoration: none; }
 
-section {
+.section-wrapper {
   display: flex !important;
   align-items: center;
+  background: #0B0C08; }
+
+.experience-wrapper {
   background: #0B0C08; }
 
 main {
@@ -449,3 +446,12 @@ main {
 .experience-list li {
   color: #EAF2F2;
   font-size: 1.1rem; }
+
+.experience-list a {
+  color: #f28e1c;
+  transition: 1s color; }
+
+.experience-list a:hover {
+  color: #4B5E51;
+  text-decoration: none;
+  transition: 1s color; }
