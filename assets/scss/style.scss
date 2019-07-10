@@ -23,9 +23,9 @@ a {
 
 /* END Primary elements design */
 
-/* Sidenav Design */
+/* content Design */
 
-.sidenav {
+.content {
     position: fixed;
     height: 100%;
     width: 100%;
@@ -36,7 +36,7 @@ a {
     padding-top: 60px;
   }
   
-  .sidenav p {
+  .content p {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 18px;
@@ -45,7 +45,7 @@ a {
     transition: 0.3s;
   }
 
-  .sidenav .closebtn {
+  .content .closebtn {
     text-decoration: none;
     font-size: 28px !important;
     color: $lightHeading !important;
@@ -59,7 +59,7 @@ a {
     font-size: 45px;
   }
 
-  .sidenav-heading {
+  .content-heading {
     font-size:32px;
     color: $lightHeading;
     text-decoration: underline;
@@ -71,19 +71,19 @@ a {
     padding-left: .5rem;
   }
 
-  .sidenav .closebtn:hover {
+  .content .closebtn:hover {
     cursor: pointer;
   }
 
-  .sidenav a {
-    color:$sidenavAnchor;
+  .content a {
+    color:$contentAnchor;
   }
   
-  .sidenav a:hover{
+  .content a:hover{
     color: $lightHeading;
   }
 
-  /* END Sidenav Design */
+  /* END content Design */
 
   /*  START HEADINGS */
 
@@ -108,7 +108,7 @@ a {
   color: $textColor;
 }
 
-.sidenav-subheading {
+.content-subheading {
     color: $textColor !important;
     text-decoration:underline;
 }
@@ -122,22 +122,6 @@ a {
 .experience-list li {
   color: $textColor;
   font-size: 1.1rem;
-}
-
-.darker {
-    background: $darkHeading;
-}
-
-.lighter {
-    background: $lightHeading;
-}
-
-.light-heading {
-    color:$lightHeading;
-}
-
-.dark-heading {
-    color:$mildHeading;
 }
 
 /* END Heading Design */
