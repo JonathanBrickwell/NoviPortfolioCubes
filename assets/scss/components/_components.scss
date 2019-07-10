@@ -63,15 +63,11 @@
 // HEADING STYLES 
 
 .main-heading {
+    color: $textColor;
     width:100%;
     font-size:3rem;
     font-weight: 700 !important;
     text-align: center;
-}
-
-.main-heading a {
-  text-decoration: none;
-  color: $textColor;
 }
 
 .main-heading:hover {
