@@ -170,3 +170,81 @@ a {
     font-size: 45px;
     margin-left: 5px;
 }
+
+.cube col {
+  justify-content: center;
+}
+
+// MENU
+
+.dark-menu {
+  background: $backgroundColor;
+}
+
+.ham {
+  width: 20px;
+  height: 4px;
+  background: $textColor;
+  margin: 20px 0 0 20px;
+}
+
+.ham:before {
+  display: block;
+  content: "";
+  width: 28px;
+  height: 4px;
+  box-shadow: 0 -8px 0 0 $textColor, 0 8px 0 0 $textColor;
+}
+
+.close.icon {
+  color: #000;
+  position: absolute;
+  margin-top: 0;
+  margin-left: 0;
+  width: 21px;
+  height: 21px;
+}
+
+.close.icon:before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  width: 21px;
+  height: 1px;
+  background-color: currentColor;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.close.icon:after {
+  content: '';
+  position: absolute;
+  top: 10px;
+  width: 21px;
+  height: 1px;
+  background-color: currentColor;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+section {
+  display:flex !important;
+  align-items: center;
+}
+
+main {
+  margin-top: -50px;
+}
+
+.nav-link {
+  color: #EAF2F2;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size:1.5rem;
+  transition: .5s color;
+}
+
+.nav-link:hover {
+  color:$btnHover;
+  transition: .5s color;
+}
