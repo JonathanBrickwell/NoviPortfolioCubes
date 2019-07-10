@@ -242,19 +242,6 @@ h4.card-title a {
 .ty-btn {
   background: #2B312D; }
 
-:root {
-  --input-padding-x: 1.5rem;
-  --input-padding-y: 0.75rem; }
-
-/* Primary elements design */
-h5, h6, h4 {
-  color: #EAF2F2 !important; }
-
-a {
-  text-decoration: none; }
-
-/* END Primary elements design */
-/* content Design */
 .content {
   position: fixed;
   height: 100%;
@@ -305,8 +292,6 @@ a {
 .content a:hover {
   color: #f2f2f2; }
 
-/* END content Design */
-/*  START HEADINGS */
 .main-heading {
   width: 100%;
   font-size: 3rem;
@@ -328,32 +313,6 @@ a {
   color: #EAF2F2 !important;
   text-decoration: underline; }
 
-.about-list li {
-  font-size: 1.1rem;
-  color: #EAF2F2;
-  font-style: italic; }
-
-.experience-list li {
-  color: #EAF2F2;
-  font-size: 1.1rem; }
-
-.darker {
-  background: #1e1e1e; }
-
-.lighter {
-  background: #f2f2f2; }
-
-.light-heading {
-  color: #f2f2f2; }
-
-.dark-heading {
-  color: #414141; }
-
-/* END Heading Design */
-/* CUBES */
-#about-me {
-  background: #0B0C08; }
-
 .home-arrow::before {
   content: '<<';
   color: #f2f2f2;
@@ -373,9 +332,6 @@ a {
   font-size: 45px;
   margin-left: 5px; }
 
-.cube col {
-  justify-content: center; }
-
 .dark-menu {
   background: #0B0C08; }
 
@@ -392,41 +348,6 @@ a {
   height: 4px;
   box-shadow: 0 -8px 0 0 #EAF2F2, 0 8px 0 0 #EAF2F2; }
 
-.close.icon {
-  color: #000;
-  position: absolute;
-  margin-top: 0;
-  margin-left: 0;
-  width: 21px;
-  height: 21px; }
-
-.close.icon:before {
-  content: '';
-  position: absolute;
-  top: 10px;
-  width: 21px;
-  height: 1px;
-  background-color: currentColor;
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg); }
-
-.close.icon:after {
-  content: '';
-  position: absolute;
-  top: 10px;
-  width: 21px;
-  height: 1px;
-  background-color: currentColor;
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg); }
-
-section {
-  display: flex !important;
-  align-items: center; }
-
-main {
-  margin-top: -50px; }
-
 .nav-link {
   color: #EAF2F2;
   text-transform: uppercase;
@@ -437,3 +358,35 @@ main {
 .nav-link:hover {
   color: #4B5E51;
   transition: .5s color; }
+
+:root {
+  --input-padding-x: 1.5rem;
+  --input-padding-y: 0.75rem; }
+
+h5, h6, h4 {
+  color: #EAF2F2 !important; }
+
+a {
+  text-decoration: none; }
+
+section {
+  display: flex !important;
+  align-items: center; }
+
+main {
+  margin-top: -50px; }
+
+#about-me {
+  background: #0B0C08; }
+
+.cube col {
+  justify-content: center; }
+
+.about-list li {
+  font-size: 1.1rem;
+  color: #EAF2F2;
+  font-style: italic; }
+
+.experience-list li {
+  color: #EAF2F2;
+  font-size: 1.1rem; }

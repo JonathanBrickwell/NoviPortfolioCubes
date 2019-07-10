@@ -5,114 +5,43 @@
 @import 'components/skillbar';
 @import 'components/card';
 @import 'components/thankyou';
+@import 'components/components';
 
+// BOOTSTRAP INITIAL SPACING
 :root {
     --input-padding-x: 1.5rem;
     --input-padding-y: 0.75rem;
 }
 
-/* Primary elements design */
-
+// BASIC STYLES FOR HEADERS
 h5, h6, h4 {
   color: $textColor !important;
 }
 
+// ANCHORS & LINKS
 a {
   text-decoration:none;
 }
 
-/* END Primary elements design */
-
-/* content Design */
-
-.content {
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    bottom: 0;
-    right: 0;
-    background-color: $backgroundColor;
-    overflow-x: hidden;
-    padding-top: 60px;
-  }
-  
-  .content p {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 18px;
-    color: $lightHeading;
-    display: block;
-    transition: 0.3s;
-  }
-
-  .content .closebtn {
-    text-decoration: none;
-    font-size: 28px !important;
-    color: $lightHeading !important;
-    display: block;
-    transition: 0.3s;
-    position: absolute;
-    text-decoration: none;
-    background: $backgroundColor;
-    top: 10px;
-    right: 35px;
-    font-size: 45px;
-  }
-
-  .content-heading {
-    font-size:32px;
-    color: $lightHeading;
-    text-decoration: underline;
-  }  
-
-  .closebtn::after {
-    content: 'X';
-    color: $lightHeading;
-    padding-left: .5rem;
-  }
-
-  .content .closebtn:hover {
-    cursor: pointer;
-  }
-
-  .content a {
-    color:$contentAnchor;
-  }
-  
-  .content a:hover{
-    color: $lightHeading;
-  }
-
-  /* END content Design */
-
-  /*  START HEADINGS */
-
-.main-heading {
-    width:100%;
-    font-size:3rem;
-    font-weight: 700 !important;
-    text-align: center;
+// MAIN SECTIONS
+section {
+  display:flex !important;
+  align-items: center;
 }
 
-.main-heading a {
-  text-decoration: none;
-  color: $textColor;
+main {
+  margin-top: -50px;
 }
 
-.main-heading:hover {
-    cursor: pointer;
+#about-me {
+  background: $backgroundColor;
 }
 
-.main-heading a:hover {
-  text-decoration: none;
-  color: $textColor;
+.cube col {
+  justify-content: center;
 }
 
-.content-subheading {
-    color: $textColor !important;
-    text-decoration:underline;
-}
-
+// LIST STYLES
 .about-list li {
     font-size:1.1rem;
     color:$textColor;
@@ -124,111 +53,5 @@ a {
   font-size: 1.1rem;
 }
 
-/* END Heading Design */
 
-/* CUBES */
 
-#about-me {
-  background: $backgroundColor;
-}
-
-// Blogs
-
-.home-arrow::before {
-  content: '<<';
-  color: $lightHeading;
-  padding-right: .5rem;
-}
-
-.home-arrow {
-  text-decoration: none;
-    font-size: 35px !important;
-    color: $lightHeading !important;
-    display: block;
-    transition: 0.3s;
-    position: absolute;
-    text-decoration: none;
-    background: $backgroundColor;
-    top: 10px;
-    left: 5px;
-    font-size: 45px;
-    margin-left: 5px;
-}
-
-.cube col {
-  justify-content: center;
-}
-
-// MENU
-
-.dark-menu {
-  background: $backgroundColor;
-}
-
-.ham {
-  width: 20px;
-  height: 4px;
-  background: $textColor;
-  margin: 20px 0 0 20px;
-}
-
-.ham:before {
-  display: block;
-  content: "";
-  width: 28px;
-  height: 4px;
-  box-shadow: 0 -8px 0 0 $textColor, 0 8px 0 0 $textColor;
-}
-
-.close.icon {
-  color: #000;
-  position: absolute;
-  margin-top: 0;
-  margin-left: 0;
-  width: 21px;
-  height: 21px;
-}
-
-.close.icon:before {
-  content: '';
-  position: absolute;
-  top: 10px;
-  width: 21px;
-  height: 1px;
-  background-color: currentColor;
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
-}
-
-.close.icon:after {
-  content: '';
-  position: absolute;
-  top: 10px;
-  width: 21px;
-  height: 1px;
-  background-color: currentColor;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
-}
-
-section {
-  display:flex !important;
-  align-items: center;
-}
-
-main {
-  margin-top: -50px;
-}
-
-.nav-link {
-  color: #EAF2F2;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size:1.5rem;
-  transition: .5s color;
-}
-
-.nav-link:hover {
-  color:$btnHover;
-  transition: .5s color;
-}
