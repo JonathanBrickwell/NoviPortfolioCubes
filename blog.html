@@ -43,31 +43,68 @@
 
 </head>
 <body>
-    <header></header>
+    <header>
+        <div class="main-navigation">
+            <div class="collapse dark-menu pt-4" id="navbarToggleExternalContent">
+                <div class="menu-content">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="about-me.html" class="nav-link">About me</a></li>
+                        <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+                        <li class="nav-item"><a href="experience.html" class="nav-link">Experience</a></li>
+                        <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                        <li class="nav-item"><a href="contact-me.html" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <nav class="navbar dark-menu">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="menu-toggle ham"></div>
+                </button>
+            </nav>
+        </div>
+    </header>
 
-    <div class="container-fluid">
-        <!-- END FIRST ROW -->
-        <div class="row no-gutter">
-            <div class="col-md-8 col-lg-6 col-sm-12">
-                <div id="blog" class="content blog-content">
-                    <a href="index.html" class="home-arrow">Home</a>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12 col-lg-12 col-sm-12">
-                                <img src="assets/img/blog-cover.jpg" class="img-fluid pb-4">
-                                <h2 class="content-heading mb-4">My blogs</h2>
-                                <p>Here you can take a look at some of my blogs. <br>
-                                I'll try my best to keep it concise and educational.</p>
-                            </div>
+    <main>
+        <section class="section-wrapper">
+            <div class="container-fluid">
+                <div class="row cube">
+                    <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                        <h2 class="main-heading">MY BLOGS.</h2>
+                        <p class="main-text">I write, sometimes.</p>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                        <div class="arrow">
+                            <a href="#about-me"><span></span></a>
                         </div>
-                        <div class="row blog-content-section"></div>
                     </div>
                 </div>
             </div>
-            <!-- End Second Row - First Column -->
-        </div>
-        <!-- END SECOND ROW -->
-      </div>
+        </section>
+
+        <section class="experience-wrapper" id="about-me">
+            <div class="container">
+                <div class="row d-sm-none d-lg-block d-md-none">
+                    <div class="col-md-12 col-lg-12 col-sm-12">
+                        <div class="parallax-background"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row pt-4">
+                    <div class="col-md-12 col-lg-12 col-sm-12">
+                        <h3 class="subheading mb-4"><u>BLOGS</u></h3>
+                        <p class="main-text">Here you can take a look at some of my blogs. <br>
+                            I'll try my best to keep it concise and educational.</p>
+                    </div>
+                </div>
+                <div class="row blog-content-section"></div>
+            </div>
+        </section>
+
+    </main>
       <!-- END CONTAINER -->
 
     <footer></footer>
