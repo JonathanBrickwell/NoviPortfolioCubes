@@ -17,7 +17,7 @@ h2, h3, h4 {
     left: 5px;
     margin-left: 5px; }
   .section-wrapper {
-    min-height: 50vh;
+    min-height: 100vh;
     width: 100%; }
   .parallax-background {
     background-attachment: scroll; } }
@@ -459,6 +459,9 @@ h3, h5, h6, h4 {
 
 a {
   text-decoration: none; }
+
+.anchor {
+  color: #dcca27; }
 
 .section-wrapper {
   display: flex !important;
