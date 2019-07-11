@@ -18,6 +18,10 @@
       min-height: 50vh;
       width: 100%;
     }
+
+    .parallax-background {
+      background-attachment: scroll;
+    }
 }
 
 @media (min-width:768px) {
@@ -29,5 +33,16 @@
   .section-wrapper {
     min-height: 100vh;
     width: 100%;
+  }
+
+  .parallax-background {
+    background: url('/assets/img/about-me-cover.jpg');
+    height: 300px;
+    width:100%;
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
