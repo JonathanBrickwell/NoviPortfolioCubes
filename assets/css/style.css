@@ -20,7 +20,9 @@ h2, h3, h4 {
     min-height: 100vh;
     width: 100%; }
   .parallax-background {
-    background-attachment: scroll; } }
+    background-attachment: scroll; }
+  .about-logo {
+    display: none; } }
 
 @media (min-width: 768px) {
   .section-wrapper {
@@ -457,6 +459,19 @@ h4.card-title a {
   color: #dcca27;
   text-decoration: none;
   transition: 1s color; }
+
+.card-img-top {
+  transition: filter .5s ease-in-out;
+  -webkit-filter: grayscale(100%);
+  /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(100%);
+  /* FF 35+ */ }
+
+.card-img-top:hover {
+  -webkit-filter: grayscale(0%);
+  /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(0%);
+  /* FF 35+ */ }
 
 .arrow {
   position: absolute;
