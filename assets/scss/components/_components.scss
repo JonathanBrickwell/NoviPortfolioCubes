@@ -173,7 +173,7 @@
   }
   
   .nav-link:hover {
-    color:$btnHover;
+    color:$contentAnchor;
     transition: .5s color;
   }
 
@@ -185,16 +185,12 @@
   color: $lightHeading;
 }
 
-.hp-logo {
-  border: 1px solid rgba(234, 232, 242, .7);
-}
-
 .hp-anchor {
   color: $backgroundColor;
 }
 
 .btn:hover>.hp-anchor {
-  color: $textColor;
+  color: $backgroundColor;
 }
 
 // END HOMEPAGE DESIGN
@@ -217,7 +213,7 @@ transition: 1s color;
 }
 
 .experience-list a:hover {
-color:$btnHover;
+color:$contentAnchor;
 text-decoration: none;
 transition: 1s color;
 }

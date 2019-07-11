@@ -18,12 +18,22 @@ h2, h3, h4 {
     margin-left: 5px; }
   .section-wrapper {
     min-height: 50vh;
-    width: 100%; } }
+    width: 100%; }
+  .parallax-background {
+    background-attachment: scroll; } }
 
 @media (min-width: 768px) {
   .section-wrapper {
     min-height: 100vh;
-    width: 100%; } }
+    width: 100%; }
+  .parallax-background {
+    background: url("/assets/img/about-me-cover.jpg");
+    height: 300px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; } }
 
 .btn.btn-light {
   font-family: 'Josefin Sans', sans-serif;
@@ -38,19 +48,19 @@ h2, h3, h4 {
 
 .btn.btn-light:hover {
   color: #f2f2f2 !important;
-  background-color: #4B5E51 !important;
+  background-color: #dcca27 !important;
   border-color: transparent !important;
   transition: .5s background-color, .5s color; }
 
 .btn.btn-light:focus {
   color: #f2f2f2 !important;
-  background-color: #4B5E51 !important;
+  background-color: #dcca27 !important;
   border-color: transparent !important;
   transition: .5s background-color, .5s color; }
 
 .btn.btn-light:active {
   color: #f2f2f2 !important;
-  background-color: #4B5E51 !important;
+  background-color: #dcca27 !important;
   border-color: transparent !important;
   transition: .5s background-color, .5s color; }
 
@@ -84,9 +94,9 @@ h2, h3, h4 {
 .expand {
   height: 1px;
   margin: 2px 0;
-  background: #F2B80C;
+  background: #dcca27;
   position: absolute;
-  box-shadow: 0px 0px 10px 1px rgba(255, 193, 7, 0.2); }
+  box-shadow: 0px 0px 10px 1px rgba(255, 235, 59, 0.5); }
 
 .html5 {
   width: 95%;
@@ -201,7 +211,7 @@ h4.card-title a {
   color: #1e1e1e; }
 
 .ty-anchor:hover {
-  color: #4B5E51; }
+  color: #dcca27; }
 
 .card-signin {
   border: 0;
@@ -280,7 +290,7 @@ h4.card-title a {
   cursor: pointer; }
 
 .content a {
-  color: #f28e1c; }
+  color: #dcca27; }
 
 .content a:hover {
   color: #f2f2f2; }
@@ -386,20 +396,17 @@ h4.card-title a {
   transition: .5s color; }
 
 .nav-link:hover {
-  color: #4B5E51;
+  color: #dcca27;
   transition: .5s color; }
 
 .main-text {
   color: #f2f2f2; }
 
-.hp-logo {
-  border: 1px solid rgba(234, 232, 242, 0.7); }
-
 .hp-anchor {
   color: #0B0C08; }
 
 .btn:hover > .hp-anchor {
-  color: #EAF2F2; }
+  color: #0B0C08; }
 
 .about-list li {
   font-size: 1.1rem;
@@ -411,11 +418,11 @@ h4.card-title a {
   font-size: 1.1rem; }
 
 .experience-list a {
-  color: #f28e1c;
+  color: #dcca27;
   transition: 1s color; }
 
 .experience-list a:hover {
-  color: #4B5E51;
+  color: #dcca27;
   text-decoration: none;
   transition: 1s color; }
 
