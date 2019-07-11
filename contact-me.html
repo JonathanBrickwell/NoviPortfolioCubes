@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>About me - Kristijan Fištrek</title>
+    <title>Contact me - Kristijan Fištrek</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Kristijan Fištrek">
     <meta name="description" content="Welcome to my first blog. Allow me to introduce myself and what I'll be doing in the upcoming blogs. I'd really like if you could stick around, let's learn together!">
@@ -43,58 +43,94 @@
 
 </head>
 <body>
-    <header></header>
+    <header>
+        <div class="main-navigation">
+            <div class="collapse dark-menu pt-4" id="navbarToggleExternalContent">
+                <div class="menu-content">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="about-me.html" class="nav-link">About me</a></li>
+                        <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+                        <li class="nav-item"><a href="experience.html" class="nav-link">Experience</a></li>
+                        <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                        <li class="nav-item"><a href="contact-me.html" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <nav class="navbar dark-menu">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="menu-toggle ham"></div>
+                </button>
+            </nav>
+        </div>
+    </header>
 
-    <div class="container-fluid">
-        <!-- END FIRST ROW -->
-        <div class="row no-gutter">
-            <div class="col-md-8 col-lg-6 col-sm-12">
-                <div id="contact" class="content contact-content">
-                    <a href="index.html" class="home-arrow">Home</a>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12 col-lg-12 col-sm-12">
-                                <img src="assets/img/contact.jpg" class="img-fluid pb-4">
-                                <h2 class="content-heading mb-4">Contact me</h2>
-                                <p>You want to collaborate with me on a project? <br>
-                                   You have a cool coding job for me? <br>
-                                   You just want to say hello? <br>
-                                   Feel free to hit me up down below!</p>
-                            </div>
-                        </div>
-                        <div class="row mb-4">
-                            <div class="col-sm-12 col-md-6 col-lg-6">
-                                <form action="/pages/success/thank-you.html" name="contact" method="POST" data-netlify="true">
-
-                                    <div class="form-group">
-                                        <h3 class="content-subheading mb-4">First & last name</h3>
-                                        <input required name="name" type="text" class="form-control" id="exampleFormControlInput1" placeholder="John Mills">
-                                    </div>
-
-                                    <div class="form-group">
-                                        <h3 class="content-subheading mb-4">Your e-mail</h3>
-                                        <input required name="email" type="email" class="form-control" id="inputEmail4" placeholder="Email">
-                                    </div>
-                                      
-                                    <div class="form-group">
-                                        <h3 class="content-subheading mb-4">Your message</h3>
-                                        <textarea required name="message" class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <button type="submit" class="btn btn-light col-lg-12">Send</button>
-                                    </div>
-
-                                </form>
-                            </div>
+    <main>
+        <section class="section-wrapper">
+            <div class="container-fluid">
+                <div class="row cube">
+                    <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                        <h2 class="main-heading">CONTACT ME.</h2>
+                        <p class="main-text">I got code.</p>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                        <div class="arrow">
+                            <a href="#about-me"><span></span></a>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- End Second Row - First Column -->
-        </div>
-        <!-- END SECOND ROW -->
-      </div>
+        </section>
+
+        <section class="experience-wrapper" id="about-me">
+            <div class="container">
+                <div class="row d-sm-none d-lg-block d-md-none">
+                    <div class="col-md-12 col-lg-12 col-sm-12">
+                        <div class="parallax-background"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row pt-4 pb-2">
+                    <div class="col-md-12 col-lg-12 col-sm-12">
+                        <h3 class="subheading mb-4"><u>GET IN TOUCH</u></h3>
+                        <p class="main-text">You want to collaborate with me on a project? <br>
+                            You have a cool coding job for me? <br>
+                            You just want to say hello? <br>
+                            Feel free to hit me up down below!</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <form action="/pages/success/thank-you.html" name="contact" method="POST" data-netlify="true">
+
+                            <div class="form-group">
+                                <h3 class="sidenav-subheading mb-4">First & last name</h3>
+                                <input required name="name" type="text" class="form-control" id="exampleFormControlInput1" placeholder="John Mills">
+                            </div>
+
+                            <div class="form-group">
+                                <h3 class="sidenav-subheading mb-4">Your e-mail</h3>
+                                <input required name="email" type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                            </div>
+                              
+                            <div class="form-group">
+                                <h3 class="sidenav-subheading mb-4">Your message</h3>
+                                <textarea required name="message" class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-light col-lg-12"><a class="hp-anchor" href="about-me.html">Send</a></button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+        </section>
+
+    </main>
       <!-- END CONTAINER -->
 
     <footer></footer>
