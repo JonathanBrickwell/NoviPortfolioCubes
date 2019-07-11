@@ -285,11 +285,13 @@ h4.card-title a {
 .content a:hover {
   color: #f2f2f2; }
 
-.main-heading {
+.main-heading, .hp-heading {
   color: #EAF2F2;
   width: 100%;
   font-size: 3rem;
-  font-weight: 700 !important;
+  font-weight: 700 !important; }
+
+.main-heading {
   text-align: center; }
 
 .content-subheading {
@@ -390,6 +392,33 @@ h4.card-title a {
 .main-text {
   color: #f2f2f2; }
 
+.hp-logo {
+  border: 1px solid rgba(234, 232, 242, 0.7); }
+
+.hp-anchor {
+  color: #0B0C08; }
+
+.btn:hover > .hp-anchor {
+  color: #EAF2F2; }
+
+.about-list li {
+  font-size: 1.1rem;
+  color: #EAF2F2;
+  font-style: italic; }
+
+.experience-list li {
+  color: #EAF2F2;
+  font-size: 1.1rem; }
+
+.experience-list a {
+  color: #f28e1c;
+  transition: 1s color; }
+
+.experience-list a:hover {
+  color: #4B5E51;
+  text-decoration: none;
+  transition: 1s color; }
+
 .arrow {
   position: absolute;
   left: 50%;
@@ -437,21 +466,3 @@ main {
 
 .cube col {
   justify-content: center; }
-
-.about-list li {
-  font-size: 1.1rem;
-  color: #EAF2F2;
-  font-style: italic; }
-
-.experience-list li {
-  color: #EAF2F2;
-  font-size: 1.1rem; }
-
-.experience-list a {
-  color: #f28e1c;
-  transition: 1s color; }
-
-.experience-list a:hover {
-  color: #4B5E51;
-  text-decoration: none;
-  transition: 1s color; }
