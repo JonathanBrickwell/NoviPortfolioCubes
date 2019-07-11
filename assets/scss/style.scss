@@ -43,28 +43,6 @@ main {
   justify-content: center;
 }
 
-// LIST STYLES
-.about-list li {
-    font-size:1.1rem;
-    color:$textColor;
-    font-style: italic;
-}
-
-.experience-list li {
-  color: $textColor;
-  font-size: 1.1rem;
-}
-
-.experience-list a {
-  color: $contentAnchor;
-  transition: 1s color;
-}
-
-.experience-list a:hover {
-  color:$btnHover;
-  text-decoration: none;
-  transition: 1s color;
-}
 
 
 

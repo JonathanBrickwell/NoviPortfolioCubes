@@ -62,12 +62,15 @@
 
 // HEADING STYLES 
 
-.main-heading {
+.main-heading, .hp-heading {
     color: $textColor;
     width:100%;
     font-size:3rem;
     font-weight: 700 !important;
-    text-align: center;
+}
+
+.main-heading {
+  text-align: center;
 }
 
 .content-subheading {
@@ -180,4 +183,41 @@
 
 .main-text {
   color: $lightHeading;
+}
+
+.hp-logo {
+  border: 1px solid rgba(234, 232, 242, .7);
+}
+
+.hp-anchor {
+  color: $backgroundColor;
+}
+
+.btn:hover>.hp-anchor {
+  color: $textColor;
+}
+
+// END HOMEPAGE DESIGN
+
+// LIST STYLES
+.about-list li {
+  font-size:1.1rem;
+  color:$textColor;
+  font-style: italic;
+}
+
+.experience-list li {
+color: $textColor;
+font-size: 1.1rem;
+}
+
+.experience-list a {
+color: $contentAnchor;
+transition: 1s color;
+}
+
+.experience-list a:hover {
+color:$btnHover;
+text-decoration: none;
+transition: 1s color;
 }
