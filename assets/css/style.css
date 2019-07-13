@@ -256,10 +256,10 @@ h4.card-title a {
 
 .ty-anchor {
   font-size: 1rem;
-  color: #1e1e1e; }
+  color: #0B0C08; }
 
 .ty-anchor:hover {
-  color: #dcca27; }
+  color: #0B0C08; }
 
 .card-signin {
   border: 0;
@@ -291,7 +291,7 @@ h4.card-title a {
   background-color: #3b5998; }
 
 .ty-btn {
-  background: #2B312D; }
+  background: #dcca27; }
 
 .content {
   position: fixed;

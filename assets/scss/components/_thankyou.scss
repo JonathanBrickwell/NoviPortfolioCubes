@@ -14,11 +14,11 @@
 
 .ty-anchor {
     font-size: 1rem;
-    color: $darkHeading;
+    color: $backgroundColor;
 }
 
 .ty-anchor:hover {
-    color: $contentAnchor;
+    color: $backgroundColor;
 }
 
 .card-signin {
@@ -57,5 +57,5 @@
   }
 
   .ty-btn {
-      background: $secondCube;
+      background: $contentAnchor;
   }
