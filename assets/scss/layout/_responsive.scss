@@ -1,5 +1,17 @@
 @media screen and (min-width:320px) and (max-width: 768px) {
 
+
+  #about-parallax {
+    background: url('/assets/img/about-me-cover.jpg');
+    height: 300px;
+    width:100%;
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
     .skillsbar {
       width: 220px;
     }
