@@ -1,5 +1,17 @@
 @media screen and (min-width:320px) and (max-width: 768px) {
 
+    .skillsbar {
+      width: 220px;
+    }
+
+    #skill li {
+      width: 220px;
+    }
+
+    .hp-center {
+      text-align: center;
+    }
+
     .content a {
       font-size: 18px;
     }
@@ -29,6 +41,19 @@
 }
 
 @media (min-width:768px) {
+
+  .skillsbar {
+    width:350px;
+  }
+
+  #skill li {
+    width:350px;
+  }
+
+  .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: .5rem solid $contentAnchor;
+  }
   
   .section-wrapper {
     min-height: 100vh;
