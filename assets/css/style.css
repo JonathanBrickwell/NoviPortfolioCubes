@@ -491,6 +491,16 @@ h4.card-title a {
     opacity: 0;
     transform: rotate(45deg) translate(3px, 3px); } }
 
+footer {
+  height: 50px;
+  background: #DCCA27;
+  color: #0B0C08; }
+  footer .footer-content {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+
 html {
   scroll-behavior: smooth; }
 
