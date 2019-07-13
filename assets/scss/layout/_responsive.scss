@@ -1,16 +1,122 @@
 @media screen and (min-width:320px) and (max-width: 768px) {
 
-    .sidenav a {
+    .skillsbar {
+      width: 220px;
+    }
+
+    #skill li {
+      width: 220px;
+    }
+
+    .hp-center {
+      text-align: center;
+    }
+
+    .content a {
       font-size: 18px;
     }
 
-    .sidenav p {
+    .content p {
       padding-left: 0px;
       padding-right: 0px;
     }
 
-    .sidenav .closebtn {
+    .content .closebtn {
       left: 5px;
       margin-left: 5px;
     }
+
+    .section-wrapper {
+      min-height: 100vh;
+      width: 100%;
+    }
+
+    .parallax-background {
+      background-attachment: scroll;
+    }
+
+    .about-logo {
+      display:none;
+    }
+}
+
+@media (min-width:768px) {
+
+  .skillsbar {
+    width:350px;
+  }
+
+  #skill li {
+    width:350px;
+  }
+
+  .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: .5rem solid $contentAnchor;
+  }
+  
+  .section-wrapper {
+    min-height: 100vh;
+    width: 100%;
+  }
+
+  #about-parallax {
+    background: url('/assets/img/about-me-cover.jpg');
+    height: 300px;
+    width:100%;
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #experience-parallax {
+    background: url('/assets/img/experience.jpg');
+    height: 300px;
+    width:100%;
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #projects-parallax {
+    background: url('/assets/img/projects.jpg');
+    height: 300px;
+    width:100%;
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #blog-parallax {
+    background: url('/assets/img/blog-cover.jpg');
+    height: 300px;
+    width:100%;
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #contact-parallax {
+    background: url('/assets/img/contact.jpg');
+    height: 300px;
+    width:100%;
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .form-wrapper {
+    padding-left: 20% !important;
+    padding-right: 20% !important;
+  }
 }

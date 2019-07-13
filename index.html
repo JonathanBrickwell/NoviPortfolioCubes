@@ -45,354 +45,200 @@
 
 </head>
 <body>
-    <header></header>
-
-    <div class="container-fluid">
-        <div class="row no-gutter">
-            <div class="d-md-flex col-md-4 col-lg-4 col-sm-12 first-cube">
-                <div class="boxes d-flex align-items-center py-5">
-                    <h2 class="main-heading light-heading">
-                        <a class="list-item about-me"><span class="openNav">About me</span></a>
-                    </h2>
+    <header>
+        <div class="main-navigation">
+            <div class="collapse dark-menu pt-4" id="navbarToggleExternalContent">
+                <div class="menu-content">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item"><a href="about-me.html" class="nav-link">About me</a></li>
+                        <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+                        <li class="nav-item"><a href="experience.html" class="nav-link">Experience</a></li>
+                        <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                        <li class="nav-item"><a href="contact-me.html" class="nav-link">Contact</a></li>
+                    </ul>
                 </div>
-                <div id="about" class="sidenav about-sidenav">
-                    <a class="closebtn"></a>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12 col-lg-12 col-sm-12">
-                                <img src="assets/img/about-me-cover.jpg" class="img-fluid pb-4">
-                                <h2 class="sidenav-heading">What is this place?</h2>
-                                <p>Welcome to my new & re-designed web portfolio! <br> Really nice to have you here!</p>
-                            </div>
+            </div>
+            <nav class="navbar dark-menu">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="menu-toggle ham"></div>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="section-wrapper" id="welcome">
+            <div class="container-fluid">
+                <div class="row cube">
+                    <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                        <h2 class="main-heading">WELCOME.</h2>
+                        <p class="main-text">My web portfolio.</p>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                        <div class="arrow">
+                            <a href="#about"><span></span></a>
                         </div>
-                        <div class="row">
-                            <div class="col-md-12 col-lg-12 col-sm-12">
-                                <h2 class="sidenav-heading">Who are you?</h2>
-                                <p>My name is Kristijan Fištrek and I'm an enthusiastic & proactive developer from a small city called Varaždin, located in Croatia. <br>I'm passionate about technology & I love to code!</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12 col-lg-12 col-sm-12">
-                                <h2 class="sidenav-heading">How old are you?</h2>
-                                <p>Proudly marching through the 27th year of my life! Almost 28.</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12 col-lg-12 col-sm-12">
-                                <h2 class="sidenav-heading">That's old.</h2>
-                                <p>That hurts man...</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12 col-lg-12 col-sm-12">
-                                <h2 class="sidenav-heading">How long have you been programming?</h2>
-                                <p>I started dabbling with it in 2008. But I wasn't serious until I actually started studying programming enginnering in college. <br> With that in mind, I've been consistently programming for about 5 years.</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12 col-lg-12 col-sm-12">
-                                <h2 class="sidenav-heading">Who is this for?</h2>
-                                <p>Anyone interested!<br></p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12 col-lg-12 col-sm-12">
-                                <h2 class="sidenav-heading">What do you do?</h2>
-                                <p>I currently work as an IT Solutions Developer / CTIO at <a href="https://www.hrvatskitelekom.hr/" target="_blank">Hrvatski Telekom.</a><br>
-                                For further information, feel free to download my <a target="_blank" href="assets/documents/Kristijan_Fištrek_cv.pdf">portfolio.</a></p>
-                                <p>P.S. I am inexplicably interested in music. Everything from playing the instrument, recording the songs, all the way to mixing & mastering the finished product. Check out my <a href="https://www.youtube.com/channel/UCJicm7lClbbCfjBPfrfFb6g">YouTube channel</a> to see some of my work.</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12 col-lg-12 col-sm-12">
-                                <h2 class="sidenav-heading">Marvel or DC?</h2>
-                                <h3 class="sidenav-subheading">(This is a crucial questions that determines the future of any profesional collaboration or partnership!)</h3>
-                                <p>Uhh we're getting personal here! <br>
-                                   Ever since I can remember, I was a Batman fan. HUGE Batman fan. Wonder why this portfolio is so dark? Wonder no more. <br>
-                                   But hey, Marvel almost changed my mind with Daredevil & Punisher.
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-wrapper" id="about">
+            <div class="container-fluid">
+                <div class="row cube">
+                    <div class="col-lg-6 col-md-12 col-sm-12 text-center about-logo">
+                        <img class="img-fluid hp-logo" src="assets/img/homepage/HP-about.png" alt="Homepage logo">
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="hp-center">
+                            <h2 class="hp-heading">ABOUT ME.</h2>
+                            <p class="main-text">My name is Kristijan Fištrek. <br>
+                                I'm an enthusiastic & proactive developer from a small city called Varaždin.<br>
+                                I'm very passionate about development, design, music & food. <br>
                                 </p>
-                            </div>
+                                <p class="main-text">I really, really like food...my diet plans are going down the drain right now.
+                            </p>
+                            <button type="button" class="btn btn-light"><a class="hp-anchor" href="about-me.html">Find out more</a></button>
                         </div>
-                        <div class="row">
-                            <div class="col-md-12 col-lg-12 col-sm-12">
-                                <h2 class="sidenav-heading">How can I get to know you more?</h2>
-                                <p>Have no fear, here are some of my social media accounts. If you like juicy memes, you'll enjoy my social media presence.</p>
-                                <ul class="about-list">
-                                    <li><a href="https://www.facebook.com/kristijan.fistrek" target="_blank">Facebook</a></li>
-                                    <li><a href="https://www.linkedin.com/in/kristijan-fi%C5%A1trek/" target="_blank">LinkedIn</a></li>
-                                    <li><a href="https://www.instagram.com/cats.coffee.guitars/" target="_blank">Instagram</a></li>
-                                    <li><a href="https://www.youtube.com/channel/UCJicm7lClbbCfjBPfrfFb6g" target="_blank">YouPorn</a></li>
-                                    <li><a href="https://github.com/JonathanBrickwell" target="_blank">Github</a></li>
-                                    <li><a href="https://dev.to/jonathanbrickwell">Dev.to</a></li>
-                                </ul>
-                            </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                        <div class="arrow">
+                            <a href="#projects"><span></span></a>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- End First Row - First Column -->
-            <div class="col-md-4 col-lg-4 col-sm-12 second-cube">
-                <div class="boxes d-flex align-items-center py-5">
-                    <h2 class="main-heading dark-heading">
-                        <a class="list-item projects"><span class="openNav">Projects</span></a>
-                    </h2>
+        </section>
+        <section class="section-wrapper" id="projects">
+            <div class="container">
+                <div class="row mb-2">
+                    <div class="col-lg-6 col-md-6 col-sm-12 text-center">
+                        <h2 class="main-heading">PROJECTS.</h2>
+                        <p class="main-text">Some of my selected work.</p>
+                        <p class="main-text">Click ,,<i><a href="projects.html" class="anchor">More projects</a></i>'' for further detail.</p>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="hp-center">
+                            <h4 class="main-text"><u>Freelance projects.</u></h4>
+                            <h3 class="subheading"><a href="#" class="anchor">Learn Angular</a></h3>
+                            <h3 class="subheading"><a href="#" class="anchor">NASA API Hub</a></h3>
+                            <h3 class="subheading"><a href="#" class="anchor">Music Player Android</a></h3>
+                            <h3 class="subheading"><a href="#" class="anchor">College Scheduler </a></h3>
+                            <h4 class="main-text"><u>Work.</u></h4>
+                            <h3 class="subheading"><a href="https://otklonite-smetnju.hrvatskitelekom.hr/" class="anchor">Otklonite smetnju</a></h3>
+                            <h3 class="subheading"><a href="https://www.hrvatskitelekom.hr/karte-pokrivenosti" class="anchor">Karta pokrivenosti</a></h3>
+                            <button type="button" class="btn btn-light mt-2"><a class="hp-anchor" href="about-me.html">More projects</a></button>
+                        </div>
+                    </div>
                 </div>
-                <div id="projects" class="sidenav projects-sidenav">
-                    <a class="closebtn"></a>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12 col-lg-12 col-sm-12">
-                                <img src="assets/img/projects.jpg" class="img-fluid pb-4">
-                                <h2 class="sidenav-heading">Welcome to my projects</h2>
-                                <p>Here you can find some of my finished projects + some of the ongoing ones as well. <br>
-                                This page will be further developed in the upcoming months, but some of the most important projects are layed out here.<br>
-                                I hope you'll find something interesting!</p>
-                                <p>Just to keep everything concise and neat, if you want to check out the full list the projects I have done or participated in, feel free to click here : <a href="assets/documents/Portfolio.pdf" target="_blank">LIST OF COOL PROJECTS.</a><br>
-                                If however you want to check out the projects that stand out from the rest, scroll down and take look at that list.<br>
-                                I hope you'll find something interesting! Cheers!</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-12 mb-4">
-                            <h2 class="sidenav-heading">Featured projects</h2>
-                        </div>
-                        <div class="row mb-4">
-                            <div class="col-md-7">
-                              <a href="https://github.com/JonathanBrickwell/LetsLearnAngular">
-                                <img class="img-fluid rounded mb-3 mb-md-0" src="assets/img/projects/LearnAngular.png" height="300" width="700" alt="Let's learn Angular application">
-                              </a>
-                            </div>
-                            <div class="col-md-5">
-                              <h3 class="sidenav-subheading">Learn Angular</h3>
-                              <p>A web application designed & developed using Angular 7. Made with the purpose of learning and teaching the benefits that Angular offers. It serves as a good learning tool for me, and hopefully for others!</p>
-                              <a class="btn btn-light" href="https://github.com/JonathanBrickwell/LetsLearnAngular">Details</a>
-                            </div>
-                        </div>
-                        <div class="row mb-4">
-                            <div class="col-md-7">
-                              <a href="https://jonathanbrickwell.github.io/Nasa-API-HUB/">
-                                <img class="img-fluid rounded mb-3 mb-md-0" src="assets/img/projects/NASAAPIHub.jpg" height="300" width="700" alt="NASA API Hub">
-                              </a>
-                            </div>
-                            <div class="col-md-5">
-                              <h3 class="sidenav-subheading">NASA API Hub</h3>
-                              <p>NASA API Hub was made to unify all open source NASA API's. So far I've covered Astronomy Picture Of The Day and a list of near Earth objects on a specific day. More to come!</p>
-                              <a class="btn btn-light" href="https://jonathanbrickwell.github.io/Nasa-API-HUB/">Details</a>
-                            </div>
-                        </div>
-                        <div class="row mb-4">
-                            <div class="col-md-7">
-                              <a href="https://github.com/JonathanBrickwell/Android_MusicPlayer">
-                                <img class="img-fluid rounded mb-3 mb-md-0" src="assets/img/projects/MusicPlayer.png" alt="">
-                              </a>
-                            </div>
-                            <div class="col-md-5">
-                              <h3 class="sidenav-subheading">Music Player</h3>
-                              <p>As a student, as my Java interest was peaking, I developed a music player that reads your local library and enables you to play, pause, stop and rewind your favorite songs. I used primarily Android Studio for the development & Adobe tools to sketch out the design.<br> Click down below to check out my Github repository of the project.</p>
-                              <a class="btn btn-light" href="https://github.com/JonathanBrickwell/Android_MusicPlayer">Details</a>
-                            </div>
-                        </div>
-                        <div class="row mb-4">
-                            <div class="col-md-7">
-                                <a href="https://github.com/JonathanBrickwell/ASP.NET-CORE">
-                                <img class="img-fluid rounded mb-3 mb-md-0" src="assets/img/projects/netCore.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="col-md-5">
-                                <h3 class="sidenav-subheading">College Scheduler</h3>
-                                <p>College Scheduler is a project I've done in a collaboration with another college friend of mine. Basically we've created an application that allows you to enter the list of courses you're attending and compose a schedule. It can be used by a professor, student and an administrator, each with their own respective rights. We've used .NET Core as our foundation.</p>
-                                <a class="btn btn-light" href="https://github.com/JonathanBrickwell/ASP.NET-CORE">Details</a>
-                            </div>
+                <div class="row mt-5">
+                    <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                        <div class="arrow">
+                            <a href="#experience"><span></span></a>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- End First Row - Second Column -->
-            <div class="d-md-flex col-md-4 col-lg-4 col-sm-12 third-cube">
-                <div class="boxes d-flex align-items-center py-5">
-                    <h2 class="main-heading light-heading">
-                        <a class="list-item"><span class="openNav">Experience</span></a>
-                    </h2>
+        </section>
+        <section class="section-wrapper" id="experience">
+            <div class="container">
+                <div class="row cube">
+                    <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                        <h2 class="main-heading">SKILLS & EXPERIENCE.</h2>
+                        <p class="main-text"><i>The journey so far...</i></p>
+                    </div>
                 </div>
-                <div id="experience" class="sidenav experience-sidenav">
-                    <a class="closebtn"></a>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12 col-lg-12 col-sm-12">
-                                <img src="assets/img/experience.jpg" class="img-fluid pb-4">
-                                <h2 class="sidenav-heading mb-4">My journey so far</h2>
-                                <h3 class="sidenav-subheading mb-4">Experience & Education</h3>
-                                <ul class="experience-list">
-                                    <li>
-                                        <h4>First steps - C++</h4>
-                                        <h6>Sometime in 2008...</h6>
-                                        <p>C++ was the first language I started to learn as a hyped & upcoming developer! <br>
-                                           After two weeks I thought : ,,<i>Man, this shit is hard...</i></Man>''. <br>
-                                           Then I quit.</p>
-                                    </li>
-                                    <li>
-                                        <h4>College - Polytechnic of Međimurje in Čakovec</h4>
-                                        <h6>Semptember 2013. - Semptember 2017.</h6>
-                                        <ul class="experience-list mb-4">
-                                            <li>Expanded my knowledge of <b>C++</b></li>
-                                            <li>Developed huge interest in data structures & algorithms</li>
-                                            <li>Learned & worked on a couple of <b>.NET</b> projects</li>
-                                            <li>Freelanced on a couple of <b>Wordpress/PHP</b> projects</li>
-                                            <li>Flirted with <b>Java</b></li>
-                                            <li>Learned <b>MATLAB</b> & <b>Neural Networks</b> for my <a href="assets/documents/fistrek_kristijan_mev_2017_zavrs_struc.pdf" target="_blank">thesis</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <h4>Silkworm Association</h4>
-                                        <h6>October 2015. - December 2015.</h6>
-                                        <p>During my college years, I freelanced at the <b>Faculty of Organization & Informatics</b> (FOI). <br>
-                                           One of the most memorable projects I was working on was creating a web application using PHP for Silkworm Association. <br>
-                                           Unfortunately the web application isn't active anymore.</p>
-                                    </li>
-                                    <li>
-                                        <h4>Traineeship</h4>
-                                        <h6>Feb. 2017. - April 2017.</h6>
-                                        <p>While I was finishing college, I got the amazing opportunity to test my PHP skills in <a href="http://pixel-industry.com/">Pixel Industry</a>, a full-stack digital agency developing web based solutions. <br>
-                                        My assignments consisted of designing & developing plugins for Wordpress using PHP, CSS, HTML & Ajax.<br>
-                                        Amazing experience, amazing people & my skills got roasted. Thank you!</p>
-                                    </li>
-                                    <li>
-                                        <h4>Orvelus</h4>
-                                        <h6>November 2017. - August 2018.</h6>
-                                        <p>Right after college I worked as a Wordpress/PHP developer at Orvelus. <br>
-                                        Fruitful experience, couldn't have asked for a better first job! </p>
-                                    </li>
-                                    <li>
-                                        <h4>Freelance</h4>
-                                        <h6>August 2018. - November 2018.</h6>
-                                        <p>Right after parting with Orvelus, I realised that Wordpress/PHP world isn't really for me, so I started my little freelance adventure. <br>
-                                           All this time, besides work, I've been exploring & learning more about Javascript frameworks like React & Angular, whilst working on my back-end skills in Java & C#. <br> I decided to challenge myself & participated in a few projects involving these technologies, you can check them out on my projects page.</p>
-                                    </li>
-                                    <li>
-                                        <h4>Designer of IT Solutions / CTIO - Hrvatski Telekom</h4>
-                                        <h6>November 2018. - Ongoing</h6>
-                                        <p>On November 2018. I had a breakthrough opportunity to utilize my hard earned Angular & Java skills in a corporative & Agile environment. My social & teamwork skills were put to the test, I've been learning a lot ever since day one. <br>In April 2019. I've been nominated to participate as an ambassador in a campaign called ,,<i><b><a href="https://izsvijetaboljihmogucnosti.t.ht.hr/">Svijet Boljih Mogućnosti</a></b></i>'', for which I am eternally grateful for!<br></p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-12 col-md-12 col-lg-12">
-                                <h2 class="sidenav-heading mb-4">Skills</h2>
-                                <p>For years I've been a jack of all trades, so I decided to seperate my skills in two categories. <br>
-                                One category is my regular stack, on which I'm currently working on. <br> 
-                                The second category is the technology that I'm interested in & want to learn more about.<br>
-                                Some of my skill include but are not limited to : </p>
-                            </div>
-                            <div class="col-sm-12 col-md-6 col-lg-6">
-                                <h3 class="sidenav-subheading mb-4">My regular tech stack</h3>
-                                <div class="content">
-                                    <div class="skillsbar">
-                                        <ul id="skill">
-                                            <li><span class="expand html5"></span><h6>HTML5</h6></li>
-                                            <li><span class="expand css3"></span><h6>CSS3 / SCSS</h6></li>
-                                            <li><span class="expand js"></span><h6>Javascript</h6></li>
-                                            <li><span class="expand angular"></span><h6>Angular</h6></li>
-                                            <li><span class="expand java"></span><h6>Java</h6></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-12 col-md-6 col-lg-">
-                                <h3 class="sidenav-subheading mb-4">Excited to learn</h3>
-                                <ul class="experience-list">
-                                    <li>Springboot</li>
-                                    <li>Web Components (Vanilla Javascript)</li>
-                                    <li>Express - Node.js</li>
-                                    <li>Docker</li>
-                                    <li>NoSQL</li>
-                                    <li>Serverless AWS</li>
-                                    <li>Tensorflow</li>
-                                </ul>
-                            </div>
+                <div class="row text-center">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <p class="main-text">My journey started by watching the movies & documentaries about hackers...<br>
+                            I thought : ,,<i>I can do that!</i>''.<br>
+                        </p>
+                        <p class="main-text">The only thing I hacked since then was my Gmail account...</p>
+                        <p class="main-text">After failing as a "hacker", I pursued an education in software engineering.<br>
+                        For the last 5-6 years I've been diligently working as a software developer...</p>
+                        <button type="button" class="btn btn-light mt-2"><a class="hp-anchor" href="experience.html">Read more</a></button>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                        <div class="arrow">
+                            <a href="#blog"><span></span></a>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- End First Row - Third Column -->
-        </div>
-        <!-- END FIRST ROW -->
-        <div class="row no-gutter">
-            <div class="col-md-6 col-lg-6 col-sm-12 fourth-cube">
-                <div class="boxes d-flex align-items-center py-5">
-                    <h2 class="main-heading dark-heading">
-                        <a class="list-item"><span class="openNav">Blog</span></a>
-                    </h2>
-                </div>
-                <div id="blog" class="sidenav blog-sidenav">
-                    <a class="closebtn"></a>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12 col-lg-12 col-sm-12">
-                                <img src="assets/img/blog-cover.jpg" class="img-fluid pb-4">
-                                <h2 class="sidenav-heading mb-4">My blogs</h2>
-                                <p>Here you can take a look at some of my blogs. <br>
-                                I'll try my best to keep it concise and educational.</p>
-                            </div>
-                        </div>
-                        <div class="row blog-content-section"></div>
+        </section>
+        <section class="section-wrapper" id="blog">
+            <div class="container">
+                <div class="row cube">
+                    <div class="col-lg-12 col-md-12 col-sm-12 text-center mb-4">
+                        <h2 class="main-heading">BLOGS.</h2>
+                        <p class="main-text"><i>I write blogs about tech.</i></p>
                     </div>
                 </div>
-            </div>
-            <!-- End Second Row - First Column -->
-            
-            <div class="col-md-6 col-lg-6 col-sm-12 fifth-cube">
-                <div class="boxes d-flex align-items-center py-5">
-                    <h2 class="main-heading light-heading">
-                        <a class="list-item"><span class="openNav">Contact me</span></a>
-                    </h2>
-                </div>
-                <div id="contact" class="sidenav contact-sidenav">
-                    <a class="closebtn"></a>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12 col-lg-12 col-sm-12">
-                                <img src="assets/img/contact.jpg" class="img-fluid pb-4">
-                                <h2 class="sidenav-heading mb-4">Contact me</h2>
-                                <p>You want to collaborate with me on a project? <br>
-                                   You have a cool coding job for me? <br>
-                                   You just want to say hello? <br>
-                                   Feel free to hit me up down below!</p>
-                            </div>
+                <div class="row align-items-center no-gutters mb-4 mg-lg-2">
+                    <div class="col-xl-8 col-lg-6 col-md-6 col-sm-12 text-center">
+                        <a href="pages/blogs/welcome-blog.html">
+                            <img class="img-fluid mb-3 mb-lg-0" src="assets/img/blogs/1.Welcome/1.Welcome-header.jpg" alt="Latest blog banner">
+                        </a>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4 class="main-text">
+                                <a href="pages/blogs/welcome-blog.html" class="anchor">Latest blog</a>
+                            </h4>
+                            <p class="main-text mb-0">Allow me to introduce myself & the content you can expect from me. Primarily I'll focus on delivering tech driven content, mostly about web development, but I have few ideas about project organization, agile methodology & much more!</p>
+                            <button type="button" class="btn btn-light mt-2"><a class="hp-anchor" href="pages/blogs/welcome-blog.html">Read more</a></button>
                         </div>
-                        <div class="row mb-4">
-                            <div class="col-sm-12 col-md-6 col-lg-6">
-                                <form action="/pages/success/thank-you.html" name="contact" method="POST" data-netlify="true">
-
-                                    <div class="form-group">
-                                        <h3 class="sidenav-subheading mb-4">First & last name</h3>
-                                        <input required name="name" type="text" class="form-control" id="exampleFormControlInput1" placeholder="John Mills">
-                                    </div>
-
-                                    <div class="form-group">
-                                        <h3 class="sidenav-subheading mb-4">Your e-mail</h3>
-                                        <input required name="email" type="email" class="form-control" id="inputEmail4" placeholder="Email">
-                                    </div>
-                                      
-                                    <div class="form-group">
-                                        <h3 class="sidenav-subheading mb-4">Your message</h3>
-                                        <textarea required name="message" class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <button type="submit" class="btn btn-light col-lg-12">Send</button>
-                                    </div>
-
-                                </form>
-                            </div>
+                    </div>
+                </div>
+                <div class="row">
+                                        
+                </div>
+                <div class="row mt-5">
+                    <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                        <div class="arrow">
+                            <a href="#contact"><span></span></a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- END SECOND ROW -->
-      </div>
-      <!-- END CONTAINER -->
-
+        </section>
+        <section class="section-wrapper" id="contact">
+            <div class="container">
+                <div class="row cube">
+                    <div class="col-lg-12 col-md-12 col-sm-12 text-center mb-4">
+                        <h2 class="main-heading">CONTACT ME.</h2>
+                        <p class="main-text"><i>I got code.</i></p>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 form-wrapper">
+                        <form action="/pages/success/thank-you.html" name="contact" method="POST" data-netlify="true">
+                            <div class="form-group">
+                                <p class="main-text mb-4">First & last name</p>
+                                <input required name="name" type="text" class="form-control" id="exampleFormControlInput1" placeholder="John Mills">
+                            </div>
+                            <div class="form-group">
+                                <p class="main-text mb-4">Your e-mail</p>
+                                <input required name="email" type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <p class="main-text mb-4">Your message</p>
+                                <textarea required name="message" class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-light col-lg-12"><a class="hp-anchor">Send</a></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    
     <footer></footer>
 
     <!-- Optional JavaScript -->
@@ -400,10 +246,8 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js?v1.1" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js?v1.1" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js?v1.1" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="assets/js/navigation.js?v1.1"></script>
-    
-    <!-- Modules & Data scripts -->
-    <script src="assets/js/data/blogs/all-blogs.js"></script>
-    <script src="assets/js/modules/blogs/blogs.js"></script>
+
+    <!-- Components -->
+    <script src="assets/js/_components/footer.js"></script>
 </body>
 </html>

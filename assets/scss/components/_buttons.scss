@@ -12,21 +12,21 @@
 
 .btn.btn-light:hover {
     color: $lightHeading !important;
-    background-color: $btnHover !important;
+    background-color: $contentAnchor !important;
     border-color: transparent !important;
     transition: .5s background-color, .5s color;
 }
 
 .btn.btn-light:focus {
     color: $lightHeading !important;
-    background-color: $btnHover !important;
+    background-color: $contentAnchor !important;
     border-color: transparent !important;
     transition: .5s background-color, .5s color;
 }
 
 .btn.btn-light:active {
     color: $lightHeading !important;
-    background-color: $btnHover !important;
+    background-color: $contentAnchor !important;
     border-color: transparent !important;
     transition: .5s background-color, .5s color;
 }

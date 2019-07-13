@@ -5,216 +5,59 @@
 @import 'components/skillbar';
 @import 'components/card';
 @import 'components/thankyou';
+@import 'components/components';
+@import 'components/arrow';
+@import 'components/footer';
 
+html {
+  scroll-behavior: smooth;
+}
+
+// BOOTSTRAP INITIAL SPACING
 :root {
     --input-padding-x: 1.5rem;
     --input-padding-y: 0.75rem;
 }
 
-/* Boxes Design */
-
-.boxes,
-.image {
-  min-height: 50vh;
-  width: 100%;
-}
-
-h5, h6, h4 {
+// BASIC STYLES FOR HEADERS
+h3, h5, h6, h4 {
   color: $textColor !important;
 }
 
-h2 {
-  font-family: 'Exo', sans-serif !important;
+// ANCHORS & LINKS
+a {
+  text-decoration:none;
 }
 
-/* END Boxes Design */
-
-/* Font Families */
-
-p, ul, li, em {
-  font-family: 'Vollkorn', serif;
-  }
-  
-/* END Font Families */
-
-/* Sidenav Design */
-
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    bottom: 0;
-    right: 0;
-    background-color: $firstCube;
-    overflow-x: hidden;
-    transition: .5s width;
-    padding-top: 60px;
-  }
-  
-  .sidenav p {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 18px;
-    color: $lightHeading;
-    display: block;
-    transition: 0.3s;
-  }
-
-  .sidenav .closebtn {
-    text-decoration: none;
-    font-size: 28px !important;
-    color: $lightHeading !important;
-    display: block;
-    transition: 0.3s;
-    position: absolute;
-    text-decoration: none;
-    background: $darkHeading;
-    top: 10px;
-    right: 35px;
-    font-size: 45px;
-  }
-
-  .sidenav-heading {
-    font-size:32px;
-    color: $lightHeading;
-    text-decoration: underline;
-  }  
-
-  .closebtn::after {
-    content: 'X';
-    color: $lightHeading;
-    padding-left: .5rem;
-  }
-
-  .sidenav .closebtn:hover {
-    cursor: pointer;
-  }
-
-  .sidenav a {
-    color:$sidenavAnchor;
-  }
-  
-  .sidenav a:hover{
-    color: $lightHeading;
-  }
-
-  .openNav:hover {
-    text-decoration: line-through;
-  }
-
-  /* END Sidenav Design */
-
-  /*  START HEADINGS */
-
-.main-heading {
-    width:100%;
-    font-size:48px;
-    font-weight: 700 !important;
-    text-align: center;
+.anchor {
+  color: $contentAnchor;
+  transition: 1s color;
 }
 
-.main-heading:hover {
-    cursor: pointer;
+.anchor:hover {
+  color: #f2f2f2;
+  transition: 1s color;
 }
 
-.sidenav-subheading {
-    color: $textColor !important;
-    text-decoration:underline;
+// MAIN SECTIONS
+.section-wrapper {
+  display:flex !important;
+  align-items: center;
+  background: $backgroundColor;
 }
 
-.about-list li {
-    font-size:1.1rem;
-    color:$textColor;
-    font-style: italic;
+.experience-wrapper {
+  background: $backgroundColor;
 }
 
-.experience-list li {
-  color: $textColor;
-  font-size: 1.1rem;
+main {
+  margin-top: -50px;
 }
 
-.darker {
-    background: $darkHeading;
+.cube col {
+  justify-content: center;
 }
 
-.lighter {
-    background: $lightHeading;
-}
 
-.light-heading {
-    color:$lightHeading;
-    background-color: rgba(0, 0, 0, .8);
-}
 
-.dark-heading {
-    color:$mildHeading;
-    background-color: rgba(255, 255, 255, .8);
-}
 
-.active {
-width: 100% !important;
-}
-
-/* END Heading Design */
-
-/* CUBES */
-
-.first-cube {
-  background: url('../img/background_img/about-me-cover.jpg');
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-
-}
-
-.second-cube {
-  background: url('../img/background_img/projects.jpg');
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.third-cube {
-  background: url('../img/background_img/experience.jpg');
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.fourth-cube {
-  background: url('../img/background_img/blog.jpg');
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.fifth-cube {
-  background: url('../img/background_img/contact.jpg');
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-// Blogs
-
-.home-arrow::before {
-  content: '<<';
-  color: $lightHeading;
-  padding-right: .5rem;
-}
-
-.home-arrow {
-  text-decoration: none;
-    font-size: 35px !important;
-    color: $lightHeading !important;
-    display: block;
-    transition: 0.3s;
-    position: absolute;
-    text-decoration: none;
-    background: $darkHeading;
-    top: 10px;
-    left: 5px;
-    font-size: 45px;
-    margin-left: 5px;
-}
