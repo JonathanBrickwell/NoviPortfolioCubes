@@ -1,0 +1,12 @@
+footer {
+    height: 50px;
+    background: #DCCA27;
+    color: $backgroundColor;
+
+    .footer-content {
+        height: inherit;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
