@@ -467,19 +467,6 @@ h4.card-title a {
   padding: 0 0 0 2rem;
   border-left: 0.5rem solid #dcca27; }
 
-.card-img-top {
-  transition: filter .5s ease-in-out;
-  -webkit-filter: grayscale(100%);
-  /* Ch 23+, Saf 6.0+, BB 10.0+ */
-  filter: grayscale(100%);
-  /* FF 35+ */ }
-
-.card-img-top:hover {
-  -webkit-filter: grayscale(0%);
-  /* Ch 23+, Saf 6.0+, BB 10.0+ */
-  filter: grayscale(0%);
-  /* FF 35+ */ }
-
 .arrow {
   position: absolute;
   left: 50%;
