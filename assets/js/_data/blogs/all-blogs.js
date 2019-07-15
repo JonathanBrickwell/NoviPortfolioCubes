@@ -6,8 +6,8 @@ var blogsContainer = (function() {
         {
             id: 1,
             name: 'Welcome to my first blog!',
-            description: 'Allow me to introduce myself & the content you can expect from me in my blogs...',
-            imgURL: 'assets/img/blogs/1.Welcome/1.Welcome-banner.jpg',
+            description: 'Allow me to introduce myself & the content you can expect from me in my blogs. Primarily I will focus on delivering tech driven content, mostly about web development, but I have few ideas about project organization, agile methodology & much more!',
+            imgURL: 'assets/img/blogs/1.Welcome/1.Welcome-header.jpg',
             destination: 'pages/blogs/welcome-blog.html'
         }
     ]
