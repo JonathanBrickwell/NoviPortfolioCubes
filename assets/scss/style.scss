@@ -1,62 +1,21 @@
-@import 'helpers/variables';
-@import 'helpers/fonts';
+@import 'abstracts/variables';
+
+@import 'base/fonts';
+@import 'base/custom';
+
 @import 'layout/responsive';
-@import 'components/buttons';
-@import 'components/skillbar';
-@import 'components/card';
-@import 'components/thankyou';
+
 @import 'components/components';
+@import 'components/buttons';
 @import 'components/arrow';
+@import 'components/card';
 @import 'components/footer';
+@import 'components/skillbar';
 
-html {
-  scroll-behavior: smooth;
-}
+@import 'pages/thankyou';
 
-// BOOTSTRAP INITIAL SPACING
-:root {
-    --input-padding-x: 1.5rem;
-    --input-padding-y: 0.75rem;
-}
 
-// BASIC STYLES FOR HEADERS
-h3, h5, h6, h4 {
-  color: $textColor !important;
-}
 
-// ANCHORS & LINKS
-a {
-  text-decoration:none;
-}
-
-.anchor {
-  color: $contentAnchor;
-  transition: 1s color;
-}
-
-.anchor:hover {
-  color: #f2f2f2;
-  transition: 1s color;
-}
-
-// MAIN SECTIONS
-.section-wrapper {
-  display:flex !important;
-  align-items: center;
-  background: $backgroundColor;
-}
-
-.experience-wrapper {
-  background: $backgroundColor;
-}
-
-main {
-  margin-top: -50px;
-}
-
-.cube col {
-  justify-content: center;
-}
 
 
 
