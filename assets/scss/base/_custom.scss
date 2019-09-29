@@ -46,3 +46,16 @@ html {
   .cube col {
     justify-content: center;
   }
+
+  /* Navbar Toggler & Navbar Container */
+
+.navbar-toggler {
+  display:inherit;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 5px 20px 0 20px;
+}
