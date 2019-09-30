@@ -1,0 +1,39 @@
+// MENU
+
+.dark-menu {
+    background: $backgroundColor;
+  }
+  
+  .ham {
+    display: block;
+    height: 3px;
+    background: $textColor;
+    margin-top: 5px;
+  }
+
+  .ham-1 {
+    width: 35px;
+  }
+
+  .ham-2 {
+    width: 30px;
+  }
+
+  .ham-3 {
+    width: 25px;
+  }
+  
+  .nav-link {
+    color: #EAF2F2;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size:1.5rem;
+    transition: .5s color;
+  }
+  
+  .nav-link:hover {
+    color:$contentAnchor;
+    transition: .5s color;
+  }
+
+// END MENU

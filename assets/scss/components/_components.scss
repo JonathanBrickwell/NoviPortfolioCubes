@@ -143,42 +143,6 @@
 
 // END BLOGS
 
-// MENU
-
-.dark-menu {
-    background: $backgroundColor;
-  }
-  
-  .ham {
-    width: 20px;
-    height: 4px;
-    background: $textColor;
-    margin: 20px 0 0 20px;
-  }
-  
-  .ham:before {
-    display: block;
-    content: "";
-    width: 28px;
-    height: 4px;
-    box-shadow: 0 -8px 0 0 $textColor, 0 8px 0 0 $textColor;
-  }
-  
-  .nav-link {
-    color: #EAF2F2;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size:1.5rem;
-    transition: .5s color;
-  }
-  
-  .nav-link:hover {
-    color:$contentAnchor;
-    transition: .5s color;
-  }
-
-// END MENU
-
 // HOMEPAGE DESIGN
 
 .main-text {

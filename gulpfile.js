@@ -1,17 +1,10 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var browserSync = require('browser-sync').create();
+var autoprefixer = require('gulp-autoprefixer');
 
-gulp.task('sass', function() {
-    return gulp.src('assets/scss/**/*.scss')
-        .pipe(sass())
-        .pipe(gulp.dest('assets/css'))
-        .pipe(browserSync.reload({
-            stream: true
-        }))
-});
-
-gulp.task('browser-sync', gulp.series('sass'), function() {
+// Gulp task for starting browser sync
+gulp.task('browserSync', function() {
     browserSync.init({
         server: {
             baseDir: './'
@@ -19,13 +12,25 @@ gulp.task('browser-sync', gulp.series('sass'), function() {
     })
 })
 
-gulp.task('watch', gulp.parallel('browser-sync'), function(){
-    gulp.watch('assets/scss/**/*.scss', gulp.series('sass')); 
-    gulp.watch('/*.html', browserSync.reload);
-    gulp.watch('assets/js/**/*.js', browserSync.reload);
-    // Other watchers
-  });
+// Gulp task for compiling scss
+gulp.task('sass-compile', function() {
+    return gulp.src('assets/scss/**/*.scss')
+        .pipe(sass())
+        .pipe(autoprefixer('last 2 versions')) 
+        // Install npm install gulp-clean-css --save-dev
+        .pipe(gulp.dest('assets/css'))
+        .pipe(browserSync.reload({ 
+            stream: true 
+        }))
+});
 
-gulp.task('run', gulp.series('watch'), function() {
-    return gulp.src(console.log("Gulp build succeded."));
-})
+// Gulp task for watching the changes that happen in files with .scss extension
+gulp.task('watch', gulp.parallel('sass-compile', 'browserSync', function() {
+    gulp.watch('assets/scss/**/*.scss', gulp.series('sass-compile'));
+    gulp.watch('*.html').on('change', browserSync.reload);
+}));
+
+// One task to rule them all.
+gulp.task('run', gulp.series('watch', function() {
+    return console.log('Gulp build successfull!');
+}));
