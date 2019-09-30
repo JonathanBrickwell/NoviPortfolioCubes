@@ -15,7 +15,7 @@ var header = (function() {
         html += '</ul>';
         html += '</div>';
         html += '</div>';
-        html += '<nav class="navbar fixed">';
+        html += '<nav class="navbar dark-menu">';
         html += '<div class="navbar-container">'
         html += '<a class="navbar-brand" href="index.html">';
         html += '<img src="assets/img/logo/Canvas.svg" width="50" height="50" alt="Homepage brand logo">';
