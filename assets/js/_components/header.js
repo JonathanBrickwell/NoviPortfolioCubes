@@ -3,8 +3,8 @@ var header = (function() {
     var _headerDesign = function() {
         var html = '';
 
-        html += '<div class="main-navigation">';
-        html += '<div class="collapse dark-menu pt-4" id="navbarToggleExternalContent">';
+        html += '<div class="main-navigation fixed-top">';
+        html += '<div class="collapse dark-menu pt-4 pb-4" id="navbarToggleExternalContent">';
         html += '<div class="menu-content">';
         html += '<ul class="nav justify-content-center">';
         html += '<li class="nav-item"><a href="about-me.html" class="nav-link">About me</a></li>';
@@ -15,7 +15,7 @@ var header = (function() {
         html += '</ul>';
         html += '</div>';
         html += '</div>';
-        html += '<nav class="navbar fixed dark-menu">';
+        html += '<nav class="navbar fixed">';
         html += '<div class="navbar-container">'
         html += '<a class="navbar-brand" href="index.html">';
         html += '<img src="assets/img/logo/Canvas.svg" width="50" height="50" alt="Homepage brand logo">';
