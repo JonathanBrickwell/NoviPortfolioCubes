@@ -16,7 +16,7 @@ This portfolio was made using :
 
 ## Architecture - Key points
 
-1. js
+1. **js**
 
     1.1. This folder consists of two subfolders - **_data** and **_modules**
 
