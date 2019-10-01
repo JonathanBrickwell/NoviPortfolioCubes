@@ -7,7 +7,7 @@ var menu = (function() {
         if(menuClicked) {
           menuClicked.addEventListener("click", function() {
             for(var i = 0; i < hamClass.length; i++) {
-                //hamClass[i].classList.add('newClass');
+                hamClass[i].classList.toggle('newClass');
             }
           });
         }

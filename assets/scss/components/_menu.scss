@@ -13,14 +13,17 @@
 
   .ham-1 {
     width: 35px;
+    transition: .5s width;
   }
 
   .ham-2 {
     width: 30px;
+    transition: .5s width;
   }
 
   .ham-3 {
     width: 25px;
+    transition: .5s width;
   }
   
   .nav-link {
@@ -36,4 +39,8 @@
     transition: .5s color;
   }
 
+  .newClass {
+    width: 40px !important;
+    transition: .7s width;
+  }
 // END MENU
