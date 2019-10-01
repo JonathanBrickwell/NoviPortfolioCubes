@@ -488,13 +488,19 @@ footer {
   margin-top: 5px; }
 
 .ham-1 {
-  width: 35px; }
+  width: 35px;
+  -webkit-transition: .5s width;
+  transition: .5s width; }
 
 .ham-2 {
-  width: 30px; }
+  width: 30px;
+  -webkit-transition: .5s width;
+  transition: .5s width; }
 
 .ham-3 {
-  width: 25px; }
+  width: 25px;
+  -webkit-transition: .5s width;
+  transition: .5s width; }
 
 .nav-link {
   color: #EAF2F2;
@@ -508,6 +514,11 @@ footer {
   color: #dcca27;
   -webkit-transition: .5s color;
   transition: .5s color; }
+
+.newClass {
+  width: 40px !important;
+  -webkit-transition: .7s width;
+  transition: .7s width; }
 
 .thank-you {
   background: #0B0C08; }
