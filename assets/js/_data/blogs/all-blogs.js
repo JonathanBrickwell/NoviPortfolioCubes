@@ -13,7 +13,7 @@ var blogsContainer = (function() {
         {
             id: 2,
             name: 'JS Pattern that changed everything!',
-            description: 'Allow me to introduce you to one of my favorite javascript design patterns that I learned with the help of Addy Osmanis Javascript Design Patterns book. It helped me a lot to keep my js in check & hope you will find it useful as well.',
+            description: 'Allow me to introduce you to one of my favorite javascript design patterns that I learned with the help of Addy Osmanis Javascript Design Patterns book.',
             imgURL: 'assets/img/blogs/2.MRP/javascript-illustration.png',
             destination: 'https://dev.to/jonathanbrickwell/javascript-pattern-that-changed-everything-for-me-4cfa'
         }

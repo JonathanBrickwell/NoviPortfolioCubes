@@ -7,12 +7,12 @@ var LatestBlogs = (function() {
 
         var html = '';
 
-        html += '<div class="col-xl-8 col-lg-6 col-md-6 col-sm-12 text-center">';
+        html += '<div class="col-xl-8 col-lg-4 col-md-4 col-sm-12 text-center">';
             html += '<a href="'+ latestBlog.destination +'">';
                 html += '<img class="img-fluid mb-3 mb-lg-0" src="' + latestBlog.imgURL +'" alt="Latest blog banner">';
             html += '</a>';
         html += '</div>';
-        html += '<div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">';
+        html += '<div class="col-xl-4 col-lg-8 col-md-8 col-sm-12">';
             html += '<div class="featured-text text-center text-lg-left">';
                 html += '<h4 class="main-text">';
                     html += '<a href="'+ latestBlog.destination +'" class="anchor">' + latestBlog.name + '</a>';

@@ -59,62 +59,6 @@
     min-height: 100vh;
     width: 100%;
   }
-
-  #about-parallax {
-    background: url('/assets/img/about-me-cover.jpg');
-    height: 300px;
-    width:100%;
-  
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  #experience-parallax {
-    background: url('/assets/img/experience.jpg');
-    height: 300px;
-    width:100%;
-  
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  #projects-parallax {
-    background: url('/assets/img/projects.jpg');
-    height: 300px;
-    width:100%;
-  
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  #blog-parallax {
-    background: url('/assets/img/blog-cover.jpg');
-    height: 300px;
-    width:100%;
-  
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  #contact-parallax {
-    background: url('/assets/img/contact.jpg');
-    height: 300px;
-    width:100%;
-  
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
   .form-wrapper {
     padding-left: 20% !important;
     padding-right: 20% !important;
