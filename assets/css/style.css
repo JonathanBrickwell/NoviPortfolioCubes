@@ -69,6 +69,10 @@ main {
   -webkit-box-shadow: none;
           box-shadow: none; }
 
+.order-heading {
+  color: #dcca27;
+  font-size: 2.4rem; }
+
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .skillsbar {
     width: 220px; }
