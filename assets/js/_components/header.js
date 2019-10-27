@@ -9,6 +9,7 @@ var header = (function() {
         html += '<ul class="nav justify-content-center">';
         html += '<li class="nav-item"><a href="about-me.html" class="nav-link">About me</a></li>';
         html += '<li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>';
+        html += '<li class="nav-item"><a href="music.html" class="nav-link">Music</a></li>';
         html += '<li class="nav-item"><a href="experience.html" class="nav-link">Experience</a></li>';
         html += '<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>';
         html += '<li class="nav-item"><a href="contact-me.html" class="nav-link">Contact</a></li>';
