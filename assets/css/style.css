@@ -111,6 +111,12 @@ main {
     padding-left: 20% !important;
     padding-right: 20% !important; } }
 
+@media (min-width: 990px) {
+  .windmoor-video {
+    width: 720px !important;
+    height: 360px;
+    margin-bottom: 20px; } }
+
 .content {
   position: fixed;
   height: 100%;

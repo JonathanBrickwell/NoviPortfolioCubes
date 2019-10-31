@@ -39,5 +39,4 @@ var AllBlogs = (function() {
 
 })();
 
-// With this we can access the init property which is actually our publicFunction that rules them all!
 AllBlogs.init();
