@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Prompt:400,700&display=swap");
-p, ul, li, em {
+p, ul, li, em, a {
   font-family: 'Prompt', sans-serif;
   font-weight: 300; }
 
@@ -110,6 +110,12 @@ main {
   .form-wrapper {
     padding-left: 20% !important;
     padding-right: 20% !important; } }
+
+@media (min-width: 990px) {
+  .windmoor-video {
+    width: 720px !important;
+    height: 360px;
+    margin-bottom: 20px; } }
 
 .content {
   position: fixed;
@@ -563,6 +569,15 @@ footer {
   background-repeat: no-repeat;
   background-size: cover; }
 
+#music-parallax {
+  background: url("/assets/img/music/master-header.jpg");
+  height: 300px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 #blog-parallax {
   background: url("/assets/img/blog-cover.jpg");
   height: 300px;
@@ -580,3 +595,12 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
+
+#windmoor-parallax {
+  background: url("/assets/img/music/windmoor/windmoor-parallax.jpg");
+  height: 300px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
