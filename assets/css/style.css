@@ -109,7 +109,9 @@ main {
     width: 100%; }
   .form-wrapper {
     padding-left: 20% !important;
-    padding-right: 20% !important; } }
+    padding-right: 20% !important; }
+  #welcome {
+    margin-top: 90px; } }
 
 @media (min-width: 990px) {
   .windmoor-video {
@@ -259,23 +261,29 @@ main {
   transition: 1s color; }
 
 .btn.btn-light {
+  padding: 10px 20px;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 14px;
-  color: #1e1e1e;
-  font-weight: 700;
-  background-color: #f2f2f2;
+  font-size: 16px;
+  text-transform: uppercase;
+  background-color: #dcca27;
   border: 0px;
   border-color: transparent !important;
   border-radius: 0px;
   -webkit-transition: .5s background-color, .5s color;
   transition: .5s background-color, .5s color; }
 
+.btn.btn-light a {
+  color: #000 !important;
+  font-weight: 700 !important; }
+
 .btn.btn-light:hover {
-  color: #f2f2f2 !important;
-  background-color: #dcca27 !important;
+  background-color: #f2f2f2;
   border-color: transparent !important;
   -webkit-transition: .5s background-color, .5s color;
   transition: .5s background-color, .5s color; }
+
+.btn.btn-light:hover a {
+  color: #1e1e1e !important; }
 
 .btn.btn-light:focus {
   color: #f2f2f2 !important;
@@ -614,5 +622,4 @@ footer {
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 90px; }
+          justify-content: center; }
