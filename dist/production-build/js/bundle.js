@@ -1,3 +1,29 @@
+let menuClicked = document.querySelector('.menu-toggle');
+let hamClass = document.querySelectorAll('.ham');
+
+var menu = (function() {
+      
+      var _clickEvent = function() {
+        if(menuClicked) {
+          menuClicked.addEventListener("click", function() {
+            for(var i = 0; i < hamClass.length; i++) {
+                hamClass[i].classList.toggle('newClass');
+            }
+          });
+        }
+      }
+
+      var clickEventInit = function() {
+        _clickEvent();
+      }
+
+      return {
+        init: clickEventInit
+      }
+
+})();
+
+menu.init();
 var footer = (function() {
 
     var _footerDesign = function() {
@@ -71,32 +97,6 @@ var header = (function() {
 })();
 
 header.init();
-let menuClicked = document.querySelector('.menu-toggle');
-let hamClass = document.querySelectorAll('.ham');
-
-var menu = (function() {
-      
-      var _clickEvent = function() {
-        if(menuClicked) {
-          menuClicked.addEventListener("click", function() {
-            for(var i = 0; i < hamClass.length; i++) {
-                hamClass[i].classList.toggle('newClass');
-            }
-          });
-        }
-      }
-
-      var clickEventInit = function() {
-        _clickEvent();
-      }
-
-      return {
-        init: clickEventInit
-      }
-
-})();
-
-menu.init();
 // With this I plan on encapsulating data more, so it can't be changed from the outside and my blog content is preserved
 // No one from the outside can do blogs[0].id = 3 and change the id value of our blog from the outside.
 var blogsContainer = (function() {
