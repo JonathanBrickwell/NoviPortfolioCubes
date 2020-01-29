@@ -1,20 +1,28 @@
 .btn.btn-light {
+    padding: 10px 20px;
     font-family: 'Josefin Sans', sans-serif;
-    font-size:14px;
-    color: $darkHeading;
-    font-weight: 700;
-    background-color: $lightHeading;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: $contentAnchor;
     border: 0px;
     border-color: transparent !important;
     border-radius: 0px;
     transition: .5s background-color, .5s color;
 }
 
+.btn.btn-light a {
+    color: #000 !important;
+    font-weight: 700 !important;
+}
+
 .btn.btn-light:hover {
-    color: $lightHeading !important;
-    background-color: $contentAnchor !important;
+    background-color: $lightHeading;
     border-color: transparent !important;
     transition: .5s background-color, .5s color;
+}
+
+.btn.btn-light:hover a {
+    color: $darkHeading !important;
 }
 
 .btn.btn-light:focus {
