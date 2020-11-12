@@ -1,0 +1,42 @@
+// START BASIC HTML, BODY SETTINGS 
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+}
+
+section {
+    height: 100%;
+}
+
+// END BASIC HTML, BODY SETTINGS
+
+// START FLEX GRID
+
+.col {
+}
+
+.flex-grid {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.flex-grid .col {
+    flex: 1;
+}
+
+.flex-grid-thirds {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-grid-thirds .col {
+    width: 32%;
+}
+
+// END FLEX GRID

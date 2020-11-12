@@ -1,44 +1,29 @@
-.btn.btn-light {
-    padding: 10px 20px;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 16px;
-    text-transform: uppercase;
-    background-color: $contentAnchor;
-    border: 0px;
-    border-color: transparent !important;
+button {
+    width: 160px;
+    height: 40px;
     border-radius: 0px;
-    transition: .5s background-color, .5s color;
+    border: 2px solid #EAF2F2;
+    background: transparent;
+    color: #EAF2F2;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
 }
 
-.btn.btn-light a {
-    color: #000 !important;
-    font-weight: 700 !important;
+button a {
+    text-decoration: none;
 }
 
-.btn.btn-light:hover {
-    background-color: $lightHeading;
-    border-color: transparent !important;
-    transition: .5s background-color, .5s color;
+button:hover {
+    background: #EAF2F2;
+    cursor: pointer;
 }
 
-.btn.btn-light:hover a {
-    color: $darkHeading !important;
+button:hover>a {
+    color: #131313;
 }
 
-.btn.btn-light:focus {
-    color: $lightHeading !important;
-    background-color: $contentAnchor !important;
-    border-color: transparent !important;
-    transition: .5s background-color, .5s color;
-}
-
-.btn.btn-light:active {
-    color: $lightHeading !important;
-    background-color: $contentAnchor !important;
-    border-color: transparent !important;
-    transition: .5s background-color, .5s color;
-}
-
-.btn-light:not(:disabled):not(.disabled).active, .btn-light:not(:disabled):not(.disabled):active, .show>.btn-light.dropdown-toggle {
-    border-color:transparent !important;
+form button:hover {
+    color: #131313;
 }

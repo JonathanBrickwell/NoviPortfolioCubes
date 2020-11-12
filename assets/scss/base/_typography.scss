@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;700&display=swap');
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/assets/fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-display: swap;
+}
+
+h1, h2, h3, h4, h5, h6, #menu, .num {
+    font-family: 'Prompt', sans-serif;
+    color: $textColor;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+a {
+    color: $highlight;
+}
+
+.transparent {
+    color: transparent !important;
+}
+
+p, .tag, .date, input, textarea {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5em;
+    color: $textColor;
+}
+
+hr {
+    color: rgba(234, 242, 242, 0.5);
+    width: 200px;
+}

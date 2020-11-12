@@ -1,22 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>About me - Kristijan Fištrek</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Kristijan Fištrek">
-    <meta name="description" content="Welcome to my first blog. Allow me to introduce myself and what I'll be doing in the upcoming blogs. I'd really like if you could stick around, let's learn together!">
-  
-        <!-- Meta Tags -->
-    <meta property="og:title" content="Kristijan Fištrek - Welcome Blog">
-    <meta property="og:description" content="Welcome to my first blog! Allow me to introduce myself.">
-    <meta property="og:image" content="assets/img/blogs/1.Welcome-header.jpg">
-    <meta property="og:url" content="assets/img/blogs/1.Welcome-header.jpg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kristijan Fištrek | About Me</title>
 
-    <meta name="twitter:title" content="Kristijan Fištrek - Web Portfolio">
-    <meta name="twitter:description" content="Welcome to my first blog! Allow me to introduce myself.">
-    <meta name="twitter:image" content="assets/img/blogs/1.Welcome-header.jpg">
+    <link type="text/css" rel="stylesheet" href="assets/css/main.css?v1.0">
+
+    <!-- Basic Meta Tags -->
+    <meta name="description" content="Hi, nice to meet you. I'm Kristijan Fištrek, an enthusiastic web & android developer.">
+    <meta name="author" content="Kristijan Fištrek">
+    <meta name="keywords" content="kristijan fištrek, o meni, moje iskustvo, varaždin">
+    <meta name="robots" content="index, follow">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:title" content="Kristijan Fištrek - About Me">
+    <meta property="og:description" content="Hi, nice to meet you. I'm Kristijan Fištrek, an enthusiastic web & android developer.">
+    <meta property="og:image" content="https://omramoryth.com/assets/img/meta-img/meta-img.jpeg">
+    <meta property="og:url" content="https://omramoryth.com/index.html">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:title" content="Kristijan Fištrek - About Me">
+    <meta name="twitter:description" content="Hi, nice to meet you. I'm Kristijan Fištrek, an enthusiastic web & android developer.">
+    <meta name="twitter:image" content="https://omramoryth.com/assets/img/meta-img/meta-img.jpeg">
     <meta name="twitter:card" content="summary_large_image">
 
     <!-- FAVICON -->
@@ -37,128 +43,111 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css?v1.1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css?v1.1" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
 </head>
 <body>
-    <header></header>
-    
-    <main>
-        <section class="section-wrapper">
-            <div class="container-fluid">
-                <div class="row cube">
-                    <div class="col-lg-12 col-md-12 col-sm-12 text-center">
-                        <h2 class="main-heading">ABOUT ME.</h2>
-                        <p class="main-text">I get sheet done.</p>
-                    </div>
-                </div>
-                <div class="row mt-2">
-                    <div class="col-lg-12 col-md-12 col-sm-12 text-center">
-                        <div class="arrow">
-                            <a href="#about-me"><span></span></a>
-                        </div>
-                    </div>
+
+    <nav role="navigation">
+        <div id="menuToggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menu">
+            <a href="index.html"><li>Home</li></a>
+            <a href="about-me.html"><li>About Me</li></a>
+            <a href="projects.html"><li>Projects</li></a>
+            <a href="#"><li>Contact</li></a>
+          </ul>
+        </div>
+      </nav>
+
+    <section id="about-me">
+        <div class="flex-grid">
+            <div class="col">
+                <h1>About <span class="highlight">Me</span></h1><hr>
+                <p class="justify mt-2">
+                    <span class="highlight">Web</span> & <span class="highlight">Android developer</span> with over 8 years of experience.</p>
+                <div class="documents-wrapper mt-2">
+                    <button id="cv">
+                        <a target="_blank" href="/assets/documents/kristijan-fistrek-cv.pdf">CV</a>
+                    </button>
+                    <button id="portfolio">
+                        <a target="_blank" href="/assets/documents/Portfolio.pdf">Portfolio</a>
+                    </button>
                 </div>
             </div>
-        </section>
-
-        <section class="experience-wrapper" id="about-me">
-            <div class="container">
-                <div class="row d-sm-none d-lg-block d-md-none">
-                    <div class="col-md-12 col-lg-12 col-sm-12">
-                        <div id="about-parallax"></div>
-                    </div>
-                </div>
+            <div class="col">
+                <img class="img" src="/assets/img/about-me/myShot.png" alt="Personal Portfolio Image" height="700">
             </div>
-            <div class="container">
-                <div class="row pt-4">
-                    <div class="col-md-12 col-lg-12 col-sm-12">
-                        <h3 class="subheading mb-4"><u>What is this place?</u></h3>
-                        <p class="main-text">Welcome to my new & re-designed web portfolio! <br> Really nice to have you here!</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 col-lg-12 col-sm-12">
-                        <h3 class="subheading mb-4"><u>Who are you?</u></h3>
-                        <p class="main-text">My name is Kristijan Fištrek and I'm an enthusiastic & proactive developer from a small city called Varaždin, located in Croatia. <br>I'm passionate about technology & I love to code!</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 col-lg-12 col-sm-12">
-                        <h3 class="subheading mb-4"><u>How old are you?</u></h3>
-                        <p class="main-text">Proudly marching through the 27th year of my life! Almost 28.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 col-lg-12 col-sm-12">
-                        <h3 class="subheading mb-4"><u>That's old...</u></h3>
-                        <p class="main-text">That hurts man...</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 col-lg-12 col-sm-12">
-                        <h3 class="subheading mb-4"><u>How long have you been programming?</u></h3>
-                        <p class="main-text">I started dabbling with it in 2008. But I wasn't serious until I actually started studying programming enginnering in college. <br> With that in mind, I've been consistently programming for about 5 years.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 col-lg-12 col-sm-12">
-                        <h3 class="subheading mb-4"><u>Who is this for?</u></h3>
-                        <p class="main-text">Anyone interested in my projects, web development or me.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 col-lg-12 col-sm-12">
-                        <h3 class="subheading mb-4"><u>What do you do?</u></h3>
-                        <p class="main-text">I currently work as an IT Solutions Developer / CTIO at <a class="anchor" href="https://www.hrvatskitelekom.hr/" target="_blank">Hrvatski Telekom.</a><br>
-                            For further information, feel free to download my <a class="anchor" target="_blank" href="assets/documents/Kristijan_Fištrek_cv.pdf">portfolio.</a></p>
-                        <p class="main-text">P.S. I am inexplicably interested in music. Everything from playing the instrument, recording the songs, all the way to mixing & mastering the finished product. Check out my <a class="anchor" href="https://www.youtube.com/channel/UCJicm7lClbbCfjBPfrfFb6g">YouTube channel</a> to see some of my work.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 col-lg-12 col-sm-12">
-                        <h3 class="subheading mb-4"><u>Marvel or DC?</u></h3>
-                        <p class="main-text">Uhh we're getting personal here! <br>
-                            Ever since I can remember, I was a Batman fan. HUGE Batman fan. Wonder why this portfolio is so dark? Wonder no more. <br>
-                            But hey, Marvel almost changed my mind with Daredevil & Punisher.</p>
-                    </div>
-                </div>
+        </div>
+    </section>
+
+    <section id="timeline" class="mt-3">
+
+        <div class="main-title">
+            <h2>My journey</h2>
+        </div>
+
+        <div class="container">
+
+            <div class="timeline-block timeline-block-right">
+               <div class="marker"></div>
+               <div class="timeline-content">
+                  <h3>2010.</h3>
+                  <p class="highlight">Discovery of C++</p>
+                  <p>In 2010, my passion for music led me to discover Joey Sturgis. He was the person responsible for me being interested in programming. I've found countless people programming their own audio plugins and I wanted to do the same! I started learning about C++ and read a couple of books on audio processing.</p>
+               </div>
             </div>
-            <div class="container pb-4">
-                <div class="row">
-                    <div class="col-md-12 col-lg-12 col-sm-12">
-                        <h3 class="subheading">How can I get to know you more?</h2>
-                        <p class="main-text">Have no fear, here are some of my social media accounts. If you like juicy memes, you'll enjoy my social media presence.</p>
-                        <ul class="about-list">
-                            <li><a class="anchor" href="https://www.facebook.com/kristijan.fistrek" target="_blank">Facebook</a></li>
-                            <li><a class="anchor" href="https://www.linkedin.com/in/kristijan-fi%C5%A1trek/" target="_blank">LinkedIn</a></li>
-                            <li><a class="anchor" href="https://www.instagram.com/cats.coffee.guitars/" target="_blank">Instagram</a></li>
-                            <li><a class="anchor" href="https://www.youtube.com/channel/UCJicm7lClbbCfjBPfrfFb6g" target="_blank">YouPorn</a></li>
-                            <li><a class="anchor" href="https://github.com/JonathanBrickwell" target="_blank">Github</a></li>
-                            <li><a class="anchor" href="https://dev.to/jonathanbrickwell">Dev.to</a></li>
-                        </ul>
-                    </div>
-                </div>
+         
+            <div class="timeline-block timeline-block-left">
+               <div class="marker"></div>
+               <div class="timeline-content">
+                  <h3>.2012</h3>
+                  <p class="highlight">Web Development - Baby Steps</p>
+                  <p>Around July 2012, I started developing an insatiable interest in web development. I've wanted to make a website for my band, at the time, and promote our music. I've fell into a rabbit hole, which in the years that followed, I've made into a cozy home.</p>
+               </div>
             </div>
-        </section>
+         
+            <div class="timeline-block timeline-block-right">
+               <div class="marker"></div>
+               <div class="timeline-content">
+                  <h3>2013.</h3>
+                  <p class="highlight">College</p>
+                  <p>As I've become more and more interested in software engineering, I wanted to get proper education. One thing led to another and I've got accepted into the Polytechnic of Međimurje in Čakovec, where I've successfully defended my thesis and earned my bacc. status.</p>
+               </div>
+            </div>
+         
+            <div class="timeline-block timeline-block-left">
+               <div class="marker"></div>
+               <div class="timeline-content">
+                  <h3>.2015</h3>
+                  <p class="highlight">Freelancing</p>
+                  <p>Around last year of college, I got acquainted with some people on FOI (Faculty of Organization and Informatics) and started freelancing for local businesses on web development projects. I learned a lot about Wordpress, Joomla and especially JavaScript.</p>
+               </div>
+            </div>
+         
+            <div class="timeline-block timeline-block-right">
+               <div class="marker"></div>
+               <div class="timeline-content">
+                  <h3>2017.</h3>
+                  <p class="highlight">Traineeship & Employment</p>
+                  <p>After I successfully completed my traineeship in Pixel Industry, learning how to program Wordpress plugins and themes, I landed my first job as a front-end developer, designining and developing websites/webshops.</p>
+               </div>
+            </div>
 
-    </main>
+            <div class="timeline-block timeline-block-left">
+                <div class="marker"></div>
+                <div class="timeline-content">
+                   <h3>.2018</h3>
+                   <p class="highlight">Hrvatski Telekom - Information Technology Developer</p>
+                   <p>During summer of 2018. I got recommended by a friend, who worked in Hrvatski Telekom, for a front-end developer role. I applied and I got it! After my previous company, I was in search for new challenges and I've found more than enough of it as an IT Developer in Hrvatski Telekom.</p>
+                </div>
+             </div>
 
-    <footer></footer>
+         </div>
+    </section>
 
-    <!-- Components -->
-    <script src="assets/js/_components/header.js"></script>
-    <script src="assets/js/_components/footer.js"></script>
+    <!-- Scripts -->
 
-    <!-- Navigation JS -->
-    <script src="assets/js/navigation.js"></script>
-
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js?v1.1" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js?v1.1" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js?v1.1" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    
 </body>
 </html>

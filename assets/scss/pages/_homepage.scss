@@ -1,5 +1,20 @@
-#welcome {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+html, body {
+    background: $background;
+    height: 100%;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.highlight {
+    color: $highlight;
+    font-weight: bold;
+}
+
+.inline {
+    display: inline-block;
+}
+
