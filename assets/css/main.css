@@ -175,7 +175,7 @@ form button:hover {
   position: relative;
   overflow: hidden; }
 
-.container:before {
+.container-timeline:before {
   content: '';
   position: absolute;
   top: 0;
@@ -410,9 +410,9 @@ textarea {
 body {
   padding: 20px; }
 
-section {
-  height: 100%; }
-
+/*section {
+    height: 100%;
+}*/
 .flex-grid {
   display: flex;
   height: 100%;
@@ -428,6 +428,9 @@ section {
 
 .flex-grid-thirds .col {
   width: 32%; }
+
+footer a {
+  padding-right: 10px; }
 
 @media (min-width: 320px) and (max-width: 726px) {
   section {
@@ -474,6 +477,9 @@ section {
 
 .mb-3 {
   margin-bottom: 30px; }
+
+.text-center {
+  text-align: center; }
 
 html, body {
   background: #131313;
